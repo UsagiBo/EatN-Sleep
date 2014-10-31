@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BRUNO</Machine>
+    <WindowsUser>Bruno Damjanovic</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>20c459d5-e830-4a8e-a7f0-41e7ca26e0a1</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\bruno damjanovic\documents\visual studio 2013\Projects\MVVM\MVVM\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>4975145A66BC8D9E24D8B1304F35B24BEB9C9F3EBBED1F6A50ACEBDB1E7BD129</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>20c459d5-e830-4a8e-a7f0-41e7ca26e0a1_1.0.0.0_neutral__bpr9phtm4jzt2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>20c459d5-e830-4a8e-a7f0-41e7ca26e0a1_bpr9phtm4jzt2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>20c459d5-e830-4a8e-a7f0-41e7ca26e0a1</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Bruno Damjanovic</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\bruno damjanovic\documents\visual studio 2013\Projects\MVVM\MVVM\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-22T12:38:09.089</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\bruno damjanovic\documents\visual studio 2013\Projects\MVVM\MVVM\bin\Debug\MVVM.exe">
+      <PackagePath>MVVM.exe</PackagePath>
+      <Modified>2014-09-22T12:47:03.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bruno damjanovic\documents\visual studio 2013\Projects\MVVM\MVVM\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bruno damjanovic\documents\visual studio 2013\Projects\MVVM\MVVM\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bruno damjanovic\documents\visual studio 2013\Projects\MVVM\MVVM\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bruno damjanovic\documents\visual studio 2013\Projects\MVVM\MVVM\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bruno damjanovic\documents\visual studio 2013\Projects\MVVM\MVVM\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-09-22T12:08:03.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bruno damjanovic\documents\visual studio 2013\Projects\MVVM\MVVM\bin\Debug\View\MainView.xbf">
+      <PackagePath>View\MainView.xbf</PackagePath>
+      <Modified>2014-09-22T12:47:02.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bruno damjanovic\documents\visual studio 2013\Projects\MVVM\MVVM\bin\Debug\MVVM.xr.xml">
+      <PackagePath>MVVM.xr.xml</PackagePath>
+      <Modified>2014-09-22T12:47:02.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bruno damjanovic\documents\visual studio 2013\Projects\MVVM\MVVM\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-09-22T12:38:08.886</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

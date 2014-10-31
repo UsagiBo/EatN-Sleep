@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BRUNO</Machine>
+    <WindowsUser>Bruno Damjanovic</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>077986c2-1fae-4369-8c3e-25261247c983</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\TouristAppV3.exe">
+      <PackagePath>TouristAppV3.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Hotels\h1_0.jpg">
+      <PackagePath>Assets\Hotels\h1_0.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Hotels\h1_1.jpg">
+      <PackagePath>Assets\Hotels\h1_1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Hotels\h1_2.jpg">
+      <PackagePath>Assets\Hotels\h1_2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Hotels\h2_0.jpg">
+      <PackagePath>Assets\Hotels\h2_0.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Hotels\h2_1.jpg">
+      <PackagePath>Assets\Hotels\h2_1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Hotels\h2_2.jpg">
+      <PackagePath>Assets\Hotels\h2_2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Hotels\h3_0.jpg">
+      <PackagePath>Assets\Hotels\h3_0.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Hotels\h3_1.jpg">
+      <PackagePath>Assets\Hotels\h3_1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Hotels\h3_2.jpg">
+      <PackagePath>Assets\Hotels\h3_2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Hotels\h4_0.jpg">
+      <PackagePath>Assets\Hotels\h4_0.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Hotels\h4_1.jpg">
+      <PackagePath>Assets\Hotels\h4_1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Hotels\h4_2.jpg">
+      <PackagePath>Assets\Hotels\h4_2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\ViewModel\DescriptionHotels.xml">
+      <PackagePath>ViewModel\DescriptionHotels.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\View\DetailedPage.xbf">
+      <PackagePath>View\DetailedPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\View\ListPageHotels.xbf">
+      <PackagePath>View\ListPageHotels.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\View\ListPage.xbf">
+      <PackagePath>View\ListPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\View\MainPage.xbf">
+      <PackagePath>View\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\TouristAppV3.xr.xml">
+      <PackagePath>TouristAppV3.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

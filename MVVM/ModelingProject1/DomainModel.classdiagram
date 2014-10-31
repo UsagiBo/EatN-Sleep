@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="24b95ff8-25d5-45b0-bd72-eb354142c464" name="UMLClassDiagram1" linkedPackageId="b6dc73ac-6935-4345-b23c-c1835ba27f36" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="6a91245b-5cfa-4fc6-9f61-b86e0b77f2be">
+      <profileInstance Id="2c1cb410-2140-45d7-9888-d32477ea2b85" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="9f868f0f-880c-45e1-8fb5-c663364a0ed9">
+      <profileInstance Id="b0f6c387-fbd3-436b-99af-e568f8348126" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1de79a08-edeb-493c-9cc1-8bde9edd738f" name="User" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ac27ed43-4cd5-40da-b9e5-2c3fbf1747a1" />
+        <targetEnds>
+          <association Id="dfead00f-e5bc-4626-9fbf-14c1f00b0a77" isDerived="false" sourceEndRoleName="" targetEndRoleName="open" isLeaf="false" isAbstract="false">
+            <classMoniker Id="e5c3633f-9c26-4b1d-a614-49cf60a14a91" LastKnownName="Restaurants" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="50deddcb-4da8-422f-86c6-14a3779c9627" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fa19297e-7533-4727-aa48-73f52cd6ca16" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8558e35d-7e2c-4d4c-997a-05e3de069130" name="open" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f87a38a1-d941-4549-9fa6-3c0cd7a1bcd0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4de8308b-1335-4617-8c62-ce174f62b103" />
+          </association>
+          <association Id="1c068ee9-1713-4565-b0a7-50bcb9981937" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="6782918e-bb8b-448a-a471-1edb5976454d" LastKnownName="Hotels" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="acb75be8-f228-488b-8521-a8a477261262" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7eb9dac4-3906-4df7-b056-c60cc7c92b7b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2653f427-f186-4395-ad4d-cf46b53e4d1f" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="db5e779c-fa89-4621-980e-03c380a0c8b1" name="Lower" value="open">
+                      <elementDefinition Id="8efedd35-e79a-4b67-abab-d867ab463045" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="63adcf91-f9e6-4e59-a50e-4ed57134be3a" name="Upper" value="open">
+                      <elementDefinition Id="03801095-fe38-40a3-bdf0-ebb8d59731cc" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="1f63e3e4-b8ea-4ad9-972a-e3a356a9ca80" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b7b2f560-64fc-4df3-a738-110ce26dac72" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e5c3633f-9c26-4b1d-a614-49cf60a14a91" name="Restaurants" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b1d98793-6de4-4e08-9fa8-84b26cf985fa" />
+        <targetEnds>
+          <association Id="6b6b98b4-b563-4b4c-94db-af9c100c4fc8" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="61cde2ff-abeb-4c61-858f-a5c04c6ef86f" LastKnownName="Restaurant" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c20fb61c-3cbc-4a43-8adc-772e3cfdbc3f" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a2a7d238-5e01-4d6d-beed-49e27707ad22" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9cf3bb47-a518-47f7-8b18-8081ff673dc8" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="5ebbbe8d-b658-4a44-b964-7f5c68c2f69d" name="Lower" value="*">
+                      <elementDefinition Id="9661ca47-12cc-44af-8cbd-dbf4cadc11c5" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="8e1c753e-70ee-4166-8ad0-2c513ea5a85d" name="Upper" value="*">
+                      <elementDefinition Id="959845ae-3c85-45b4-ab96-cebf97b1e8a8" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="c4b2e8f6-d700-450b-b7e2-b62d4dd348f6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="75e6bf37-f74f-4a26-8985-b6caa1cf95e7" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="61cde2ff-abeb-4c61-858f-a5c04c6ef86f" name="Restaurant" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="005aa6fe-ee8c-4cd4-bc95-e4648d3c5143" />
+        <targetEnds>
+          <association Id="e07a444a-7468-4878-b687-5ec8a5af6c75" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="65e457cf-db9a-45b8-9876-36a547a9ec5d" LastKnownName="Rating" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ed0b7291-b0fb-4536-81d3-e9ff329efd36" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="1e826c28-63b4-474b-a6ad-b67b7556abe3" name="Lower" value="1">
+                      <elementDefinition Id="38d92c2a-602f-49b8-a46c-7f94a2940344" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="c2a7e0fe-8298-4695-afbb-c69e5e4a70b2" name="Upper" value="1">
+                      <elementDefinition Id="0237049b-43b3-4537-9c31-a3aa29118c2d" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="9efbcc99-b915-4402-9f58-b3d3d1814f53" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="139f06e2-05fa-4f94-8ad2-bee3fa2c3d38" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d2854f34-1347-40f2-a986-58d6cd8f88a1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c4c4d476-ab05-4e74-b08f-4d1699f898f2" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6782918e-bb8b-448a-a471-1edb5976454d" name="Hotels" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3d03d330-3d41-4c01-ae80-aa0746f93e91" />
+        <targetEnds>
+          <association Id="f4725756-4303-4130-b7a6-6c7f453731e6" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="8b3084ba-8c8d-49e1-986f-5f04444b2c55" LastKnownName="Hotel" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="30280464-f598-47c7-9db3-1efc081803ca" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d77ee48a-4053-44c3-b9bb-802af55b742d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="821fffe0-b312-4256-8d20-dfe39cdf9b10" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="b0e32379-5263-478f-b7f6-c314d654cb10" name="Lower" value="*">
+                      <elementDefinition Id="46e3620a-aa63-4c86-92a2-eb76c2d8f7ab" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="b18c284b-60fb-465d-8d6b-7937993a01d1" name="Upper" value="*">
+                      <elementDefinition Id="5288b17a-c61b-4160-ae4a-58a689e9e6ba" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="0e699fca-84b7-4d05-ae8f-bc90ca68a2c1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="49414516-0b83-40d2-bb07-9073a7b2bfd9" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8b3084ba-8c8d-49e1-986f-5f04444b2c55" name="Hotel" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="24b02377-c6b8-4f3b-aed7-cf6d87e77f64" />
+        <targetEnds>
+          <association Id="fd30350c-de8e-428b-8bfc-6c39cd16c836" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="65e457cf-db9a-45b8-9876-36a547a9ec5d" LastKnownName="Rating" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d4561a7c-1afa-4a85-a41d-bd8824a1fbb0" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="d459da37-93ee-43bc-8ad8-4152c1f2586c" name="Lower" value="1">
+                      <elementDefinition Id="c81c169a-cd71-4d40-8bb9-22c1e0a4add7" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="f6faf6ca-94dc-4ac1-b87b-6df53d647f75" name="Upper" value="1">
+                      <elementDefinition Id="8f1fcbe1-0660-4b7e-95f0-76fdf42ee983" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="78f07a65-18db-453f-8422-aa03ebb64e2f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c1e1fc25-b696-4378-86db-af43a4a1d275" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="5771ad7d-9861-432c-bf87-33084ffb762a" name="Lower" value="*">
+                      <elementDefinition Id="564f4c5c-0142-4d91-8755-191ba6404b14" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="b22de9ca-0fa5-42d9-9cde-7703538bf44d" name="Upper" value="*">
+                      <elementDefinition Id="e08e31c4-b58e-474b-8b17-7be62baaf465" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="1d9cc31e-7153-4aaf-8083-e8505145e13d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f5b738f0-e675-4775-bfb5-7ab34c23b51f" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="65e457cf-db9a-45b8-9876-36a547a9ec5d" name="Rating" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4a548059-3cca-47bb-a62a-b16d19f0ca43" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="b6dc73ac-6935-4345-b23c-c1835ba27f36" name="ModelingProject1">
+    <elementDefinition Id="3d91b324-6406-40d8-8254-f2b02682a4ae" />
+  </package>
+</logicalClassDesignerModel>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="dd0a1328-1f57-4581-9243-e39c8de54d8f" name="UMLUseCaseDiagram1" linkedPackageId="7e6aac00-4243-4527-b267-401c44e46f09" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="257b2bd6-fa06-41dd-9843-40c36a6c4916" name="Actor1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="70b326c7-fa29-4e6d-8850-f881330a4693" />
+        <targetEnds>
+          <association Id="b61ebf93-847e-4d40-9ab6-1e63fc1c9b5c" isDerived="false" sourceEndRoleName="Actor1" targetEndRoleName="UseCase1" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="abc68860-9c73-4f2c-a314-ac8be5a35bc8" LastKnownName="Hotels and Restaurants" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c84dfa30-69d1-4d58-9485-f546879408af" name="Actor1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="98fde457-ab9c-4e68-94a9-1bc5ce106dc7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ae96777d-464b-48d0-ac25-9e98e795809b" name="UseCase1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4e80bdb2-5a21-48f6-88d7-7f1bdeb017d5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="cbd2d094-8350-4b26-b598-9a702938d6f6" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="abc68860-9c73-4f2c-a314-ac8be5a35bc8" name="Hotels and Restaurants" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="775c253b-1712-4d2e-84ca-9520366e5bca" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="7e6aac00-4243-4527-b267-401c44e46f09" name="ModelingProject1">
+    <elementDefinition Id="3d91b324-6406-40d8-8254-f2b02682a4ae" />
+    <profileInstances>
+      <packageHasProfileInstances Id="3956964a-6d27-438c-ae65-16f88e053e50">
+        <profileInstance Id="1643e164-6801-45c0-9ee5-5d4bf4321ba5" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="8818e369-82fa-472b-9cb8-d24d95624d6e">
+        <profileInstance Id="f0cd7aa1-5f2d-44c0-91f9-e866bbbc4129" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

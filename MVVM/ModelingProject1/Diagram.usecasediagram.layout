@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLUseCaseDiagram1">
+  <useCaseModelRootMoniker Id="dd0a1328-1f57-4581-9243-e39c8de54d8f" />
+  <nestedChildShapes>
+    <actorShape Id="4313631f-eb20-403d-ba10-6c6e465ca8cb" absoluteBounds="1, 1.25, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="257b2bd6-fa06-41dd-9843-40c36a6c4916" LastKnownName="Actor1" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="762d907a-9e51-498e-afe1-7d12c9c15c32" absoluteBounds="3.25, 1.375, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="abc68860-9c73-4f2c-a314-ac8be5a35bc8" LastKnownName="Hotels and Restaurants" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.5 : 1.5125); (3.25248140489501 : 1.60012407024475)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="b61ebf93-847e-4d40-9ab6-1e63fc1c9b5c" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="4313631f-eb20-403d-ba10-6c6e465ca8cb" />
+        <useCaseShapeMoniker Id="762d907a-9e51-498e-afe1-7d12c9c15c32" />
+      </nodes>
+    </useCaseAssociationConnector>
+  </nestedChildShapes>
+</useCaseDiagram>

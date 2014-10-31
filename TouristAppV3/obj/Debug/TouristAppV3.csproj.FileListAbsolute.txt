@@ -1,0 +1,99 @@
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\App.g.i.cs
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\App.g.cs
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\View\DetailedPage.g.i.cs
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\View\DetailedPage.g.cs
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\View\ListPage.g.i.cs
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\View\ListPage.g.cs
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\View\MainPage.g.i.cs
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\View\MainPage.g.cs
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\XamlTypeInfo.g.cs
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\App.xaml
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\View\DetailedPage.xaml
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\View\ListPage.xaml
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\App.xbf
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\View\DetailedPage.xbf
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\View\ListPage.xbf
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\XamlSaveStateFile.xml
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\View\MainPage.xaml
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\View\MainPage.xbf
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\bin\Debug\App.xbf
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\bin\Debug\View\DetailedPage.xbf
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\bin\Debug\View\ListPage.xbf
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\bin\Debug\View\MainPage.xbf
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\bin\Debug\TouristAppV3.xr.xml
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\bin\Debug\TouristAppV3.exe
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\bin\Debug\TouristAppV3.pdb
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\bin\Debug\resources.pri
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\bin\Debug\AppxManifest.xml
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\bin\Debug\TouristAppV3.build.appxrecipe
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\TouristAppV3.exe
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\TouristAppV3.pdb
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\priconfig.xml
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\priconfig.xml.intermediate
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\layout.resfiles
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\layout.resfiles.intermediate
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\resources.resfiles
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\resources.resfiles.intermediate
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\pri.resfiles
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\pri.resfiles.intermediate
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\qualifiers.txt
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\qualifiers.txt.intermediate
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\ProjectArchitectures.txt
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\View\ListPageHotels.g.i.cs
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\View\ListPageHotels.g.cs
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\View\ListPageHotels.xaml
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\View\ListPageHotels.xbf
+c:\users\rumyana\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\bin\Debug\View\ListPageHotels.xbf
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\App.xbf
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\View\DetailedPage.xbf
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\View\ListPageHotels.xbf
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\View\MainPage.xbf
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\TouristAppV3.xr.xml
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\TouristAppV3.exe
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\TouristAppV3.pdb
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\resources.pri
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\AppxManifest.xml
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\TouristAppV3.build.appxrecipe
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\App.g.i.cs
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\App.g.cs
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\View\DetailedPage.g.i.cs
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\View\DetailedPage.g.cs
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\View\ListPageHotels.g.i.cs
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\View\ListPageHotels.g.cs
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\View\MainPage.g.i.cs
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\View\MainPage.g.cs
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\App.xaml
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\View\DetailedPage.xaml
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\View\ListPageHotels.xaml
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\View\MainPage.xaml
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\App.xbf
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\View\DetailedPage.xbf
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\View\ListPageHotels.xbf
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\View\MainPage.xbf
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\TouristAppV3.exe
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\TouristAppV3.pdb
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\priconfig.xml
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\priconfig.xml.intermediate
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\layout.resfiles
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\layout.resfiles.intermediate
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\resources.resfiles
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\resources.resfiles.intermediate
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\pri.resfiles
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\pri.resfiles.intermediate
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\qualifiers.txt
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\ProjectArchitectures.txt
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\View\ListPageRestaurants.xbf
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\View\ListPageRestaurants.g.i.cs
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\View\ListPageRestaurants.g.cs
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\View\ListPageRestaurants.xaml
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\View\ListPageRestaurants.xbf
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\WinRTXamlToolkit.dll
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\WinRTXamlToolkit.pri
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\TouristAppV3.csprojResolveAssemblyReference.cache
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\TouristAppV3.csproj.GenerateResource.Cache
+C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\obj\Debug\WinRTXamlToolkit.pri.xml
