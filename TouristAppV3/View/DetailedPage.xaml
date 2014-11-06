@@ -77,7 +77,7 @@
                             <Button Content="Button" 
                                     HorizontalAlignment="Stretch" 
                                     VerticalAlignment="Stretch" 
-                                    Height="37"
+                                    Height="36"
                                     Command="{Binding SerializeComment}"/>
                         </StackPanel>
                 </Flyout>
