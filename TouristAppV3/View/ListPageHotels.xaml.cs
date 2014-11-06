@@ -15,6 +15,8 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
 // The Basic Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234237
+using TouristAppV3.Model;
+using TouristAppV3.ViewModel;
 
 namespace TouristAppV3.View
 {
@@ -103,9 +105,28 @@ namespace TouristAppV3.View
 
         #endregion
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void ImageButton_Click(object sender, RoutedEventArgs e)
         {
+            ListHotelViewModel.ActualHotel = (Hotel)((Button)sender).Content;
             this.Frame.Navigate(typeof(DetailedPage), null);
+        }
+
+        private void ImageButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            ListHotelViewModel.ActualHotel = (Hotel)((Button)sender).Content;
+            this.Frame.Navigate(typeof(DetailedPage));
+        }
+
+        private void ImageButton_Click_2(object sender, RoutedEventArgs e)
+        {
+            ListHotelViewModel.ActualHotel = (Hotel)((Button)sender).Content;
+            this.Frame.Navigate(typeof(DetailedPage));
+        }
+
+        private void ImageButton_Click_3(object sender, RoutedEventArgs e)
+        {
+            ListHotelViewModel.ActualHotel = (Hotel)((Button)sender).Content;
+            this.Frame.Navigate(typeof(DetailedPage));
         }
     }
 }

@@ -148,59 +148,77 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[25];
-            _typeNameTable[0] = "TouristAppV3.View.DetailedPage";
-            _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "TouristAppV3.Common.ObservableDictionary";
-            _typeNameTable[4] = "Object";
+            _typeNameTable = new string[34];
+            _typeNameTable[0] = "TouristAppV3.ViewModel.ListHotelViewModel";
+            _typeNameTable[1] = "Object";
+            _typeNameTable[2] = "TouristAppV3.Model.CommentModelHotel";
+            _typeNameTable[3] = "System.Windows.Input.ICommand";
+            _typeNameTable[4] = "TouristAppV3.Model.Hotel";
             _typeNameTable[5] = "String";
-            _typeNameTable[6] = "TouristAppV3.Common.NavigationHelper";
-            _typeNameTable[7] = "Windows.UI.Xaml.DependencyObject";
-            _typeNameTable[8] = "TouristAppV3.ViewModel.ListHotelViewModel";
-            _typeNameTable[9] = "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.Model.Hotel>";
-            _typeNameTable[10] = "System.Collections.ObjectModel.Collection`1<TouristAppV3.Model.Hotel>";
-            _typeNameTable[11] = "TouristAppV3.Model.Hotel";
-            _typeNameTable[12] = "WinRTXamlToolkit.Controls.ImageButton";
-            _typeNameTable[13] = "Windows.UI.Xaml.Controls.Button";
-            _typeNameTable[14] = "Windows.UI.Xaml.Controls.ContentControl";
-            _typeNameTable[15] = "Windows.UI.Xaml.Media.ImageSource";
-            _typeNameTable[16] = "Windows.UI.Xaml.Media.Stretch";
-            _typeNameTable[17] = "Boolean";
-            _typeNameTable[18] = "System.Uri";
-            _typeNameTable[19] = "Double";
-            _typeNameTable[20] = "TouristAppV3.View.ListPageHotels";
-            _typeNameTable[21] = "TouristAppV3.ViewModel.ListRestaurantsViewModel";
-            _typeNameTable[22] = "TouristAppV3.View.ListPage";
-            _typeNameTable[23] = "TouristAppV3.ViewModel.MainViewModel";
-            _typeNameTable[24] = "TouristAppV3.View.MainPage";
+            _typeNameTable[6] = "Callisto.Controls.Rating";
+            _typeNameTable[7] = "Windows.UI.Xaml.Controls.ItemsControl";
+            _typeNameTable[8] = "Int32";
+            _typeNameTable[9] = "Callisto.Controls.RatingSelectionMode";
+            _typeNameTable[10] = "System.Enum";
+            _typeNameTable[11] = "System.ValueType";
+            _typeNameTable[12] = "Double";
+            _typeNameTable[13] = "Windows.UI.Xaml.Media.SolidColorBrush";
+            _typeNameTable[14] = "TouristAppV3.View.DetailedPage";
+            _typeNameTable[15] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[16] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[17] = "TouristAppV3.Common.ObservableDictionary";
+            _typeNameTable[18] = "TouristAppV3.Common.NavigationHelper";
+            _typeNameTable[19] = "Windows.UI.Xaml.DependencyObject";
+            _typeNameTable[20] = "TouristAppV3.View.DetailedPageR";
+            _typeNameTable[21] = "WinRTXamlToolkit.Controls.ImageButton";
+            _typeNameTable[22] = "Windows.UI.Xaml.Controls.Button";
+            _typeNameTable[23] = "Windows.UI.Xaml.Controls.ContentControl";
+            _typeNameTable[24] = "Windows.UI.Xaml.Media.ImageSource";
+            _typeNameTable[25] = "Windows.UI.Xaml.Media.Stretch";
+            _typeNameTable[26] = "Boolean";
+            _typeNameTable[27] = "System.Uri";
+            _typeNameTable[28] = "TouristAppV3.View.ListPageHotels";
+            _typeNameTable[29] = "TouristAppV3.ViewModel.ListRestaurantsViewModel";
+            _typeNameTable[30] = "TouristAppV3.Model.Restaurant";
+            _typeNameTable[31] = "TouristAppV3.View.ListPageRestaurants";
+            _typeNameTable[32] = "TouristAppV3.ViewModel.MainViewModel";
+            _typeNameTable[33] = "TouristAppV3.View.MainPage";
 
-            _typeTable = new global::System.Type[25];
-            _typeTable[0] = typeof(global::TouristAppV3.View.DetailedPage);
-            _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::TouristAppV3.Common.ObservableDictionary);
-            _typeTable[4] = typeof(global::System.Object);
+            _typeTable = new global::System.Type[34];
+            _typeTable[0] = typeof(global::TouristAppV3.ViewModel.ListHotelViewModel);
+            _typeTable[1] = typeof(global::System.Object);
+            _typeTable[2] = typeof(global::TouristAppV3.Model.CommentModelHotel);
+            _typeTable[3] = typeof(global::System.Windows.Input.ICommand);
+            _typeTable[4] = typeof(global::TouristAppV3.Model.Hotel);
             _typeTable[5] = typeof(global::System.String);
-            _typeTable[6] = typeof(global::TouristAppV3.Common.NavigationHelper);
-            _typeTable[7] = typeof(global::Windows.UI.Xaml.DependencyObject);
-            _typeTable[8] = typeof(global::TouristAppV3.ViewModel.ListHotelViewModel);
-            _typeTable[9] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.Model.Hotel>);
-            _typeTable[10] = typeof(global::System.Collections.ObjectModel.Collection<global::TouristAppV3.Model.Hotel>);
-            _typeTable[11] = typeof(global::TouristAppV3.Model.Hotel);
-            _typeTable[12] = typeof(global::WinRTXamlToolkit.Controls.ImageButton);
-            _typeTable[13] = typeof(global::Windows.UI.Xaml.Controls.Button);
-            _typeTable[14] = typeof(global::Windows.UI.Xaml.Controls.ContentControl);
-            _typeTable[15] = typeof(global::Windows.UI.Xaml.Media.ImageSource);
-            _typeTable[16] = typeof(global::Windows.UI.Xaml.Media.Stretch);
-            _typeTable[17] = typeof(global::System.Boolean);
-            _typeTable[18] = typeof(global::System.Uri);
-            _typeTable[19] = typeof(global::System.Double);
-            _typeTable[20] = typeof(global::TouristAppV3.View.ListPageHotels);
-            _typeTable[21] = typeof(global::TouristAppV3.ViewModel.ListRestaurantsViewModel);
-            _typeTable[22] = typeof(global::TouristAppV3.View.ListPage);
-            _typeTable[23] = typeof(global::TouristAppV3.ViewModel.MainViewModel);
-            _typeTable[24] = typeof(global::TouristAppV3.View.MainPage);
+            _typeTable[6] = typeof(global::Callisto.Controls.Rating);
+            _typeTable[7] = typeof(global::Windows.UI.Xaml.Controls.ItemsControl);
+            _typeTable[8] = typeof(global::System.Int32);
+            _typeTable[9] = typeof(global::Callisto.Controls.RatingSelectionMode);
+            _typeTable[10] = typeof(global::System.Enum);
+            _typeTable[11] = typeof(global::System.ValueType);
+            _typeTable[12] = typeof(global::System.Double);
+            _typeTable[13] = typeof(global::Windows.UI.Xaml.Media.SolidColorBrush);
+            _typeTable[14] = typeof(global::TouristAppV3.View.DetailedPage);
+            _typeTable[15] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[16] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[17] = typeof(global::TouristAppV3.Common.ObservableDictionary);
+            _typeTable[18] = typeof(global::TouristAppV3.Common.NavigationHelper);
+            _typeTable[19] = typeof(global::Windows.UI.Xaml.DependencyObject);
+            _typeTable[20] = typeof(global::TouristAppV3.View.DetailedPageR);
+            _typeTable[21] = typeof(global::WinRTXamlToolkit.Controls.ImageButton);
+            _typeTable[22] = typeof(global::Windows.UI.Xaml.Controls.Button);
+            _typeTable[23] = typeof(global::Windows.UI.Xaml.Controls.ContentControl);
+            _typeTable[24] = typeof(global::Windows.UI.Xaml.Media.ImageSource);
+            _typeTable[25] = typeof(global::Windows.UI.Xaml.Media.Stretch);
+            _typeTable[26] = typeof(global::System.Boolean);
+            _typeTable[27] = typeof(global::System.Uri);
+            _typeTable[28] = typeof(global::TouristAppV3.View.ListPageHotels);
+            _typeTable[29] = typeof(global::TouristAppV3.ViewModel.ListRestaurantsViewModel);
+            _typeTable[30] = typeof(global::TouristAppV3.Model.Restaurant);
+            _typeTable[31] = typeof(global::TouristAppV3.View.ListPageRestaurants);
+            _typeTable[32] = typeof(global::TouristAppV3.ViewModel.MainViewModel);
+            _typeTable[33] = typeof(global::TouristAppV3.View.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -235,36 +253,24 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_DetailedPage() { return new global::TouristAppV3.View.DetailedPage(); }
-        private object Activate_3_ObservableDictionary() { return new global::TouristAppV3.Common.ObservableDictionary(); }
-        private object Activate_8_ListHotelViewModel() { return new global::TouristAppV3.ViewModel.ListHotelViewModel(); }
-        private object Activate_9_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.Model.Hotel>(); }
-        private object Activate_10_Collection() { return new global::System.Collections.ObjectModel.Collection<global::TouristAppV3.Model.Hotel>(); }
-        private object Activate_11_Hotel() { return new global::TouristAppV3.Model.Hotel(); }
-        private object Activate_12_ImageButton() { return new global::WinRTXamlToolkit.Controls.ImageButton(); }
-        private object Activate_20_ListPageHotels() { return new global::TouristAppV3.View.ListPageHotels(); }
-        private object Activate_21_ListRestaurantsViewModel() { return new global::TouristAppV3.ViewModel.ListRestaurantsViewModel(); }
-        private object Activate_22_ListPage() { return new global::TouristAppV3.View.ListPage(); }
-        private object Activate_23_MainViewModel() { return new global::TouristAppV3.ViewModel.MainViewModel(); }
-        private object Activate_24_MainPage() { return new global::TouristAppV3.View.MainPage(); }
-        private void MapAdd_3_ObservableDictionary(object instance, object key, object item)
+        private object Activate_0_ListHotelViewModel() { return new global::TouristAppV3.ViewModel.ListHotelViewModel(); }
+        private object Activate_2_CommentModelHotel() { return new global::TouristAppV3.Model.CommentModelHotel(); }
+        private object Activate_6_Rating() { return new global::Callisto.Controls.Rating(); }
+        private object Activate_14_DetailedPage() { return new global::TouristAppV3.View.DetailedPage(); }
+        private object Activate_17_ObservableDictionary() { return new global::TouristAppV3.Common.ObservableDictionary(); }
+        private object Activate_20_DetailedPageR() { return new global::TouristAppV3.View.DetailedPageR(); }
+        private object Activate_21_ImageButton() { return new global::WinRTXamlToolkit.Controls.ImageButton(); }
+        private object Activate_28_ListPageHotels() { return new global::TouristAppV3.View.ListPageHotels(); }
+        private object Activate_29_ListRestaurantsViewModel() { return new global::TouristAppV3.ViewModel.ListRestaurantsViewModel(); }
+        private object Activate_31_ListPageRestaurants() { return new global::TouristAppV3.View.ListPageRestaurants(); }
+        private object Activate_32_MainViewModel() { return new global::TouristAppV3.ViewModel.MainViewModel(); }
+        private object Activate_33_MainPage() { return new global::TouristAppV3.View.MainPage(); }
+        private void MapAdd_17_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
             var newKey = (global::System.String)key;
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
-        }
-        private void VectorAdd_9_ObservableCollection(object instance, object item)
-        {
-            var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.Model.Hotel>)instance;
-            var newItem = (global::TouristAppV3.Model.Hotel)item;
-            collection.Add(newItem);
-        }
-        private void VectorAdd_10_Collection(object instance, object item)
-        {
-            var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.Model.Hotel>)instance;
-            var newItem = (global::TouristAppV3.Model.Hotel)item;
-            collection.Add(newItem);
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
@@ -277,89 +283,142 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  TouristAppV3.View.DetailedPage
-                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_DetailedPage;
-                userType.AddMemberName("DefaultViewModel");
-                userType.AddMemberName("NavigationHelper");
+            case 0:   //  TouristAppV3.ViewModel.ListHotelViewModel
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_0_ListHotelViewModel;
+                userType.AddMemberName("Comment");
+                userType.AddMemberName("SerializeComment");
+                userType.AddMemberName("h1");
+                userType.AddMemberName("h2");
+                userType.AddMemberName("h3");
+                userType.AddMemberName("h4");
+                userType.AddMemberName("hotelComment");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 1:   //  Windows.UI.Xaml.Controls.Page
+            case 1:   //  Object
                 xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 2:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 3:   //  TouristAppV3.Common.ObservableDictionary
+            case 2:   //  TouristAppV3.Model.CommentModelHotel
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.DictionaryAdd = MapAdd_3_ObservableDictionary;
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  Object
-                xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+            case 3:   //  System.Windows.Input.ICommand
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 4:   //  TouristAppV3.Model.Hotel
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
 
             case 5:   //  String
                 xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 6:   //  TouristAppV3.Common.NavigationHelper
+            case 6:   //  Callisto.Controls.Rating
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ItemsControl"));
+                userType.Activator = Activate_6_Rating;
+                userType.AddMemberName("ItemCount");
+                userType.AddMemberName("SelectionMode");
+                userType.AddMemberName("Value");
+                userType.AddMemberName("WeightedValue");
+                userType.AddMemberName("PointerPressedFill");
+                userType.AddMemberName("PointerOverFill");
+                userType.AddMemberName("ReadOnlyFill");
+                xamlType = userType;
+                break;
+
+            case 7:   //  Windows.UI.Xaml.Controls.ItemsControl
+                xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 8:   //  Int32
+                xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 9:   //  Callisto.Controls.RatingSelectionMode
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Continuous", global::Callisto.Controls.RatingSelectionMode.Continuous);
+                userType.AddEnumValue("Individual", global::Callisto.Controls.RatingSelectionMode.Individual);
+                xamlType = userType;
+                break;
+
+            case 10:   //  System.Enum
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                xamlType = userType;
+                break;
+
+            case 11:   //  System.ValueType
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case 12:   //  Double
+                xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 13:   //  Windows.UI.Xaml.Media.SolidColorBrush
+                xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 14:   //  TouristAppV3.View.DetailedPage
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_14_DetailedPage;
+                userType.AddMemberName("DefaultViewModel");
+                userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 15:   //  Windows.UI.Xaml.Controls.Page
+                xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 16:   //  Windows.UI.Xaml.Controls.UserControl
+                xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 17:   //  TouristAppV3.Common.ObservableDictionary
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.DictionaryAdd = MapAdd_17_ObservableDictionary;
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 18:   //  TouristAppV3.Common.NavigationHelper
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 7:   //  Windows.UI.Xaml.DependencyObject
+            case 19:   //  Windows.UI.Xaml.DependencyObject
                 xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 8:   //  TouristAppV3.ViewModel.ListHotelViewModel
-                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_8_ListHotelViewModel;
-                userType.AddMemberName("Hotels");
-                userType.AddMemberName("SelectedHotel");
+            case 20:   //  TouristAppV3.View.DetailedPageR
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_20_DetailedPageR;
+                userType.AddMemberName("DefaultViewModel");
+                userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 9:   //  System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.Model.Hotel>
-                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<TouristAppV3.Model.Hotel>"));
-                userType.CollectionAdd = VectorAdd_9_ObservableCollection;
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 10:   //  System.Collections.ObjectModel.Collection`1<TouristAppV3.Model.Hotel>
-                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_10_Collection;
-                userType.CollectionAdd = VectorAdd_10_Collection;
-                xamlType = userType;
-                break;
-
-            case 11:   //  TouristAppV3.Model.Hotel
-                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_11_Hotel;
-                userType.AddMemberName("Name");
-                userType.AddMemberName("Address");
-                userType.AddMemberName("TelephoneNumber");
-                userType.AddMemberName("Prices");
-                userType.AddMemberName("Description");
-                userType.AddMemberName("ImageUrl");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 12:   //  WinRTXamlToolkit.Controls.ImageButton
+            case 21:   //  WinRTXamlToolkit.Controls.ImageButton
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Button"));
-                userType.Activator = Activate_12_ImageButton;
+                userType.Activator = Activate_21_ImageButton;
                 userType.AddMemberName("NormalStateImageSource");
                 userType.AddMemberName("HoverStateImageSource");
                 userType.AddMemberName("Stretch");
@@ -377,71 +436,78 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 13:   //  Windows.UI.Xaml.Controls.Button
+            case 22:   //  Windows.UI.Xaml.Controls.Button
                 xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 14:   //  Windows.UI.Xaml.Controls.ContentControl
+            case 23:   //  Windows.UI.Xaml.Controls.ContentControl
                 xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 15:   //  Windows.UI.Xaml.Media.ImageSource
+            case 24:   //  Windows.UI.Xaml.Media.ImageSource
                 xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 16:   //  Windows.UI.Xaml.Media.Stretch
+            case 25:   //  Windows.UI.Xaml.Media.Stretch
                 xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 17:   //  Boolean
+            case 26:   //  Boolean
                 xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 18:   //  System.Uri
+            case 27:   //  System.Uri
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 19:   //  Double
-                xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 20:   //  TouristAppV3.View.ListPageHotels
+            case 28:   //  TouristAppV3.View.ListPageHotels
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_20_ListPageHotels;
+                userType.Activator = Activate_28_ListPageHotels;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 21:   //  TouristAppV3.ViewModel.ListRestaurantsViewModel
+            case 29:   //  TouristAppV3.ViewModel.ListRestaurantsViewModel
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_21_ListRestaurantsViewModel;
+                userType.Activator = Activate_29_ListRestaurantsViewModel;
+                userType.AddMemberName("r1");
+                userType.AddMemberName("r2");
+                userType.AddMemberName("r3");
+                userType.AddMemberName("r4");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 22:   //  TouristAppV3.View.ListPage
+            case 30:   //  TouristAppV3.Model.Restaurant
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 31:   //  TouristAppV3.View.ListPageRestaurants
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_22_ListPage;
+                userType.Activator = Activate_31_ListPageRestaurants;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 23:   //  TouristAppV3.ViewModel.MainViewModel
+            case 32:   //  TouristAppV3.ViewModel.MainViewModel
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_23_MainViewModel;
+                userType.Activator = Activate_32_MainViewModel;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 24:   //  TouristAppV3.View.MainPage
+            case 33:   //  TouristAppV3.View.MainPage
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_24_MainPage;
+                userType.Activator = Activate_33_MainPage;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
@@ -460,6 +526,8 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
                 {
                     _otherProviders = new global::System.Collections.Generic.List<global::Windows.UI.Xaml.Markup.IXamlMetadataProvider>();
                     global::Windows.UI.Xaml.Markup.IXamlMetadataProvider provider;
+                    provider = new global::Callisto.Callisto_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    _otherProviders.Add(provider); 
                     provider = new global::WinRTXamlToolkit.WinRTXamlToolkit_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
                     _otherProviders.Add(provider); 
                 }
@@ -505,262 +573,367 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
             return foundXamlType;
         }
 
-        private object get_0_DetailedPage_DefaultViewModel(object instance)
+        private object get_0_ListHotelViewModel_Comment(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.ListHotelViewModel)instance;
+            return that.Comment;
+        }
+        private void set_0_ListHotelViewModel_Comment(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.ListHotelViewModel)instance;
+            that.Comment = (global::TouristAppV3.Model.CommentModelHotel)Value;
+        }
+        private object get_1_ListHotelViewModel_SerializeComment(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.ListHotelViewModel)instance;
+            return that.SerializeComment;
+        }
+        private void set_1_ListHotelViewModel_SerializeComment(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.ListHotelViewModel)instance;
+            that.SerializeComment = (global::System.Windows.Input.ICommand)Value;
+        }
+        private object get_2_ListHotelViewModel_h1(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.ListHotelViewModel)instance;
+            return that.h1;
+        }
+        private void set_2_ListHotelViewModel_h1(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.ListHotelViewModel)instance;
+            that.h1 = (global::TouristAppV3.Model.Hotel)Value;
+        }
+        private object get_3_ListHotelViewModel_h2(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.ListHotelViewModel)instance;
+            return that.h2;
+        }
+        private void set_3_ListHotelViewModel_h2(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.ListHotelViewModel)instance;
+            that.h2 = (global::TouristAppV3.Model.Hotel)Value;
+        }
+        private object get_4_ListHotelViewModel_h3(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.ListHotelViewModel)instance;
+            return that.h3;
+        }
+        private void set_4_ListHotelViewModel_h3(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.ListHotelViewModel)instance;
+            that.h3 = (global::TouristAppV3.Model.Hotel)Value;
+        }
+        private object get_5_ListHotelViewModel_h4(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.ListHotelViewModel)instance;
+            return that.h4;
+        }
+        private void set_5_ListHotelViewModel_h4(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.ListHotelViewModel)instance;
+            that.h4 = (global::TouristAppV3.Model.Hotel)Value;
+        }
+        private object get_6_ListHotelViewModel_hotelComment(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.ListHotelViewModel)instance;
+            return that.hotelComment;
+        }
+        private void set_6_ListHotelViewModel_hotelComment(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.ListHotelViewModel)instance;
+            that.hotelComment = (global::System.String)Value;
+        }
+        private object get_7_Rating_ItemCount(object instance)
+        {
+            var that = (global::Callisto.Controls.Rating)instance;
+            return that.ItemCount;
+        }
+        private void set_7_Rating_ItemCount(object instance, object Value)
+        {
+            var that = (global::Callisto.Controls.Rating)instance;
+            that.ItemCount = (global::System.Int32)Value;
+        }
+        private object get_8_Rating_SelectionMode(object instance)
+        {
+            var that = (global::Callisto.Controls.Rating)instance;
+            return that.SelectionMode;
+        }
+        private void set_8_Rating_SelectionMode(object instance, object Value)
+        {
+            var that = (global::Callisto.Controls.Rating)instance;
+            that.SelectionMode = (global::Callisto.Controls.RatingSelectionMode)Value;
+        }
+        private object get_9_Rating_Value(object instance)
+        {
+            var that = (global::Callisto.Controls.Rating)instance;
+            return that.Value;
+        }
+        private void set_9_Rating_Value(object instance, object Value)
+        {
+            var that = (global::Callisto.Controls.Rating)instance;
+            that.Value = (global::System.Double)Value;
+        }
+        private object get_10_Rating_WeightedValue(object instance)
+        {
+            var that = (global::Callisto.Controls.Rating)instance;
+            return that.WeightedValue;
+        }
+        private object get_11_Rating_PointerPressedFill(object instance)
+        {
+            var that = (global::Callisto.Controls.Rating)instance;
+            return that.PointerPressedFill;
+        }
+        private void set_11_Rating_PointerPressedFill(object instance, object Value)
+        {
+            var that = (global::Callisto.Controls.Rating)instance;
+            that.PointerPressedFill = (global::Windows.UI.Xaml.Media.SolidColorBrush)Value;
+        }
+        private object get_12_Rating_PointerOverFill(object instance)
+        {
+            var that = (global::Callisto.Controls.Rating)instance;
+            return that.PointerOverFill;
+        }
+        private void set_12_Rating_PointerOverFill(object instance, object Value)
+        {
+            var that = (global::Callisto.Controls.Rating)instance;
+            that.PointerOverFill = (global::Windows.UI.Xaml.Media.SolidColorBrush)Value;
+        }
+        private object get_13_Rating_ReadOnlyFill(object instance)
+        {
+            var that = (global::Callisto.Controls.Rating)instance;
+            return that.ReadOnlyFill;
+        }
+        private void set_13_Rating_ReadOnlyFill(object instance, object Value)
+        {
+            var that = (global::Callisto.Controls.Rating)instance;
+            that.ReadOnlyFill = (global::Windows.UI.Xaml.Media.SolidColorBrush)Value;
+        }
+        private object get_14_DetailedPage_DefaultViewModel(object instance)
         {
             var that = (global::TouristAppV3.View.DetailedPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_1_DetailedPage_NavigationHelper(object instance)
+        private object get_15_DetailedPage_NavigationHelper(object instance)
         {
             var that = (global::TouristAppV3.View.DetailedPage)instance;
             return that.NavigationHelper;
         }
-        private object get_2_ListHotelViewModel_Hotels(object instance)
+        private object get_16_DetailedPageR_DefaultViewModel(object instance)
         {
-            var that = (global::TouristAppV3.ViewModel.ListHotelViewModel)instance;
-            return that.Hotels;
+            var that = (global::TouristAppV3.View.DetailedPageR)instance;
+            return that.DefaultViewModel;
         }
-        private void set_2_ListHotelViewModel_Hotels(object instance, object Value)
+        private object get_17_DetailedPageR_NavigationHelper(object instance)
         {
-            var that = (global::TouristAppV3.ViewModel.ListHotelViewModel)instance;
-            that.Hotels = (global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.Model.Hotel>)Value;
+            var that = (global::TouristAppV3.View.DetailedPageR)instance;
+            return that.NavigationHelper;
         }
-        private object get_3_Hotel_Name(object instance)
-        {
-            var that = (global::TouristAppV3.Model.Hotel)instance;
-            return that.Name;
-        }
-        private void set_3_Hotel_Name(object instance, object Value)
-        {
-            var that = (global::TouristAppV3.Model.Hotel)instance;
-            that.Name = (global::System.String)Value;
-        }
-        private object get_4_Hotel_Address(object instance)
-        {
-            var that = (global::TouristAppV3.Model.Hotel)instance;
-            return that.Address;
-        }
-        private void set_4_Hotel_Address(object instance, object Value)
-        {
-            var that = (global::TouristAppV3.Model.Hotel)instance;
-            that.Address = (global::System.String)Value;
-        }
-        private object get_5_Hotel_TelephoneNumber(object instance)
-        {
-            var that = (global::TouristAppV3.Model.Hotel)instance;
-            return that.TelephoneNumber;
-        }
-        private void set_5_Hotel_TelephoneNumber(object instance, object Value)
-        {
-            var that = (global::TouristAppV3.Model.Hotel)instance;
-            that.TelephoneNumber = (global::System.String)Value;
-        }
-        private object get_6_Hotel_Prices(object instance)
-        {
-            var that = (global::TouristAppV3.Model.Hotel)instance;
-            return that.Prices;
-        }
-        private void set_6_Hotel_Prices(object instance, object Value)
-        {
-            var that = (global::TouristAppV3.Model.Hotel)instance;
-            that.Prices = (global::System.String)Value;
-        }
-        private object get_7_Hotel_Description(object instance)
-        {
-            var that = (global::TouristAppV3.Model.Hotel)instance;
-            return that.Description;
-        }
-        private void set_7_Hotel_Description(object instance, object Value)
-        {
-            var that = (global::TouristAppV3.Model.Hotel)instance;
-            that.Description = (global::System.String)Value;
-        }
-        private object get_8_Hotel_ImageUrl(object instance)
-        {
-            var that = (global::TouristAppV3.Model.Hotel)instance;
-            return that.ImageUrl;
-        }
-        private void set_8_Hotel_ImageUrl(object instance, object Value)
-        {
-            var that = (global::TouristAppV3.Model.Hotel)instance;
-            that.ImageUrl = (global::System.String)Value;
-        }
-        private object get_9_ListHotelViewModel_SelectedHotel(object instance)
-        {
-            var that = (global::TouristAppV3.ViewModel.ListHotelViewModel)instance;
-            return that.SelectedHotel;
-        }
-        private void set_9_ListHotelViewModel_SelectedHotel(object instance, object Value)
-        {
-            var that = (global::TouristAppV3.ViewModel.ListHotelViewModel)instance;
-            that.SelectedHotel = (global::TouristAppV3.Model.Hotel)Value;
-        }
-        private object get_10_ImageButton_NormalStateImageSource(object instance)
+        private object get_18_ImageButton_NormalStateImageSource(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.NormalStateImageSource;
         }
-        private void set_10_ImageButton_NormalStateImageSource(object instance, object Value)
+        private void set_18_ImageButton_NormalStateImageSource(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.NormalStateImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
         }
-        private object get_11_ImageButton_HoverStateImageSource(object instance)
+        private object get_19_ImageButton_HoverStateImageSource(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.HoverStateImageSource;
         }
-        private void set_11_ImageButton_HoverStateImageSource(object instance, object Value)
+        private void set_19_ImageButton_HoverStateImageSource(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.HoverStateImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
         }
-        private object get_12_ImageButton_Stretch(object instance)
+        private object get_20_ImageButton_Stretch(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.Stretch;
         }
-        private void set_12_ImageButton_Stretch(object instance, object Value)
+        private void set_20_ImageButton_Stretch(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.Stretch = (global::Windows.UI.Xaml.Media.Stretch)Value;
         }
-        private object get_13_ImageButton_RecyclePressedStateImageForHover(object instance)
+        private object get_21_ImageButton_RecyclePressedStateImageForHover(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.RecyclePressedStateImageForHover;
         }
-        private void set_13_ImageButton_RecyclePressedStateImageForHover(object instance, object Value)
+        private void set_21_ImageButton_RecyclePressedStateImageForHover(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.RecyclePressedStateImageForHover = (global::System.Boolean)Value;
         }
-        private object get_14_ImageButton_PressedStateImageSource(object instance)
+        private object get_22_ImageButton_PressedStateImageSource(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.PressedStateImageSource;
         }
-        private void set_14_ImageButton_PressedStateImageSource(object instance, object Value)
+        private void set_22_ImageButton_PressedStateImageSource(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.PressedStateImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
         }
-        private object get_15_ImageButton_DisabledStateImageSource(object instance)
+        private object get_23_ImageButton_DisabledStateImageSource(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.DisabledStateImageSource;
         }
-        private void set_15_ImageButton_DisabledStateImageSource(object instance, object Value)
+        private void set_23_ImageButton_DisabledStateImageSource(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.DisabledStateImageSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
         }
-        private object get_16_ImageButton_NormalStateImageUriSource(object instance)
+        private object get_24_ImageButton_NormalStateImageUriSource(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.NormalStateImageUriSource;
         }
-        private void set_16_ImageButton_NormalStateImageUriSource(object instance, object Value)
+        private void set_24_ImageButton_NormalStateImageUriSource(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.NormalStateImageUriSource = (global::System.Uri)Value;
         }
-        private object get_17_ImageButton_HoverStateImageUriSource(object instance)
+        private object get_25_ImageButton_HoverStateImageUriSource(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.HoverStateImageUriSource;
         }
-        private void set_17_ImageButton_HoverStateImageUriSource(object instance, object Value)
+        private void set_25_ImageButton_HoverStateImageUriSource(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.HoverStateImageUriSource = (global::System.Uri)Value;
         }
-        private object get_18_ImageButton_PressedStateImageUriSource(object instance)
+        private object get_26_ImageButton_PressedStateImageUriSource(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.PressedStateImageUriSource;
         }
-        private void set_18_ImageButton_PressedStateImageUriSource(object instance, object Value)
+        private void set_26_ImageButton_PressedStateImageUriSource(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.PressedStateImageUriSource = (global::System.Uri)Value;
         }
-        private object get_19_ImageButton_DisabledStateImageUriSource(object instance)
+        private object get_27_ImageButton_DisabledStateImageUriSource(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.DisabledStateImageUriSource;
         }
-        private void set_19_ImageButton_DisabledStateImageUriSource(object instance, object Value)
+        private void set_27_ImageButton_DisabledStateImageUriSource(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.DisabledStateImageUriSource = (global::System.Uri)Value;
         }
-        private object get_20_ImageButton_GenerateMissingImages(object instance)
+        private object get_28_ImageButton_GenerateMissingImages(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.GenerateMissingImages;
         }
-        private void set_20_ImageButton_GenerateMissingImages(object instance, object Value)
+        private void set_28_ImageButton_GenerateMissingImages(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.GenerateMissingImages = (global::System.Boolean)Value;
         }
-        private object get_21_ImageButton_GeneratedHoverStateLightenAmount(object instance)
+        private object get_29_ImageButton_GeneratedHoverStateLightenAmount(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.GeneratedHoverStateLightenAmount;
         }
-        private void set_21_ImageButton_GeneratedHoverStateLightenAmount(object instance, object Value)
+        private void set_29_ImageButton_GeneratedHoverStateLightenAmount(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.GeneratedHoverStateLightenAmount = (global::System.Double)Value;
         }
-        private object get_22_ImageButton_GeneratedPressedStateLightenAmount(object instance)
+        private object get_30_ImageButton_GeneratedPressedStateLightenAmount(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.GeneratedPressedStateLightenAmount;
         }
-        private void set_22_ImageButton_GeneratedPressedStateLightenAmount(object instance, object Value)
+        private void set_30_ImageButton_GeneratedPressedStateLightenAmount(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.GeneratedPressedStateLightenAmount = (global::System.Double)Value;
         }
-        private object get_23_ImageButton_GeneratedDisabledStateGrayscaleAmount(object instance)
+        private object get_31_ImageButton_GeneratedDisabledStateGrayscaleAmount(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             return that.GeneratedDisabledStateGrayscaleAmount;
         }
-        private void set_23_ImageButton_GeneratedDisabledStateGrayscaleAmount(object instance, object Value)
+        private void set_31_ImageButton_GeneratedDisabledStateGrayscaleAmount(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.ImageButton)instance;
             that.GeneratedDisabledStateGrayscaleAmount = (global::System.Double)Value;
         }
-        private object get_24_ListPageHotels_DefaultViewModel(object instance)
+        private object get_32_ListPageHotels_DefaultViewModel(object instance)
         {
             var that = (global::TouristAppV3.View.ListPageHotels)instance;
             return that.DefaultViewModel;
         }
-        private object get_25_ListPageHotels_NavigationHelper(object instance)
+        private object get_33_ListPageHotels_NavigationHelper(object instance)
         {
             var that = (global::TouristAppV3.View.ListPageHotels)instance;
             return that.NavigationHelper;
         }
-        private object get_26_ListPage_DefaultViewModel(object instance)
+        private object get_34_ListRestaurantsViewModel_r1(object instance)
         {
-            var that = (global::TouristAppV3.View.ListPage)instance;
+            var that = (global::TouristAppV3.ViewModel.ListRestaurantsViewModel)instance;
+            return that.r1;
+        }
+        private void set_34_ListRestaurantsViewModel_r1(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.ListRestaurantsViewModel)instance;
+            that.r1 = (global::TouristAppV3.Model.Restaurant)Value;
+        }
+        private object get_35_ListRestaurantsViewModel_r2(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.ListRestaurantsViewModel)instance;
+            return that.r2;
+        }
+        private void set_35_ListRestaurantsViewModel_r2(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.ListRestaurantsViewModel)instance;
+            that.r2 = (global::TouristAppV3.Model.Restaurant)Value;
+        }
+        private object get_36_ListRestaurantsViewModel_r3(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.ListRestaurantsViewModel)instance;
+            return that.r3;
+        }
+        private void set_36_ListRestaurantsViewModel_r3(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.ListRestaurantsViewModel)instance;
+            that.r3 = (global::TouristAppV3.Model.Restaurant)Value;
+        }
+        private object get_37_ListRestaurantsViewModel_r4(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.ListRestaurantsViewModel)instance;
+            return that.r4;
+        }
+        private void set_37_ListRestaurantsViewModel_r4(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.ListRestaurantsViewModel)instance;
+            that.r4 = (global::TouristAppV3.Model.Restaurant)Value;
+        }
+        private object get_38_ListPageRestaurants_DefaultViewModel(object instance)
+        {
+            var that = (global::TouristAppV3.View.ListPageRestaurants)instance;
             return that.DefaultViewModel;
         }
-        private object get_27_ListPage_NavigationHelper(object instance)
+        private object get_39_ListPageRestaurants_NavigationHelper(object instance)
         {
-            var that = (global::TouristAppV3.View.ListPage)instance;
+            var that = (global::TouristAppV3.View.ListPageRestaurants)instance;
             return that.NavigationHelper;
         }
-        private object get_28_MainPage_DefaultViewModel(object instance)
+        private object get_40_MainPage_DefaultViewModel(object instance)
         {
             var that = (global::TouristAppV3.View.MainPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_29_MainPage_NavigationHelper(object instance)
+        private object get_41_MainPage_NavigationHelper(object instance)
         {
             var that = (global::TouristAppV3.View.MainPage)instance;
             return that.NavigationHelper;
@@ -773,198 +946,276 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
 
             switch (longMemberName)
             {
+            case "TouristAppV3.ViewModel.ListHotelViewModel.Comment":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.ListHotelViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Comment", "TouristAppV3.Model.CommentModelHotel");
+                xamlMember.Getter = get_0_ListHotelViewModel_Comment;
+                xamlMember.Setter = set_0_ListHotelViewModel_Comment;
+                break;
+            case "TouristAppV3.ViewModel.ListHotelViewModel.SerializeComment":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.ListHotelViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "SerializeComment", "System.Windows.Input.ICommand");
+                xamlMember.Getter = get_1_ListHotelViewModel_SerializeComment;
+                xamlMember.Setter = set_1_ListHotelViewModel_SerializeComment;
+                break;
+            case "TouristAppV3.ViewModel.ListHotelViewModel.h1":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.ListHotelViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "h1", "TouristAppV3.Model.Hotel");
+                xamlMember.Getter = get_2_ListHotelViewModel_h1;
+                xamlMember.Setter = set_2_ListHotelViewModel_h1;
+                break;
+            case "TouristAppV3.ViewModel.ListHotelViewModel.h2":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.ListHotelViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "h2", "TouristAppV3.Model.Hotel");
+                xamlMember.Getter = get_3_ListHotelViewModel_h2;
+                xamlMember.Setter = set_3_ListHotelViewModel_h2;
+                break;
+            case "TouristAppV3.ViewModel.ListHotelViewModel.h3":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.ListHotelViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "h3", "TouristAppV3.Model.Hotel");
+                xamlMember.Getter = get_4_ListHotelViewModel_h3;
+                xamlMember.Setter = set_4_ListHotelViewModel_h3;
+                break;
+            case "TouristAppV3.ViewModel.ListHotelViewModel.h4":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.ListHotelViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "h4", "TouristAppV3.Model.Hotel");
+                xamlMember.Getter = get_5_ListHotelViewModel_h4;
+                xamlMember.Setter = set_5_ListHotelViewModel_h4;
+                break;
+            case "TouristAppV3.ViewModel.ListHotelViewModel.hotelComment":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.ListHotelViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "hotelComment", "String");
+                xamlMember.Getter = get_6_ListHotelViewModel_hotelComment;
+                xamlMember.Setter = set_6_ListHotelViewModel_hotelComment;
+                break;
+            case "Callisto.Controls.Rating.ItemCount":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Callisto.Controls.Rating");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "ItemCount", "Int32");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_7_Rating_ItemCount;
+                xamlMember.Setter = set_7_Rating_ItemCount;
+                break;
+            case "Callisto.Controls.Rating.SelectionMode":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Callisto.Controls.Rating");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "SelectionMode", "Callisto.Controls.RatingSelectionMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_8_Rating_SelectionMode;
+                xamlMember.Setter = set_8_Rating_SelectionMode;
+                break;
+            case "Callisto.Controls.Rating.Value":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Callisto.Controls.Rating");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Value", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_9_Rating_Value;
+                xamlMember.Setter = set_9_Rating_Value;
+                break;
+            case "Callisto.Controls.Rating.WeightedValue":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Callisto.Controls.Rating");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "WeightedValue", "Double");
+                xamlMember.Getter = get_10_Rating_WeightedValue;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Callisto.Controls.Rating.PointerPressedFill":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Callisto.Controls.Rating");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "PointerPressedFill", "Windows.UI.Xaml.Media.SolidColorBrush");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_11_Rating_PointerPressedFill;
+                xamlMember.Setter = set_11_Rating_PointerPressedFill;
+                break;
+            case "Callisto.Controls.Rating.PointerOverFill":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Callisto.Controls.Rating");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "PointerOverFill", "Windows.UI.Xaml.Media.SolidColorBrush");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_12_Rating_PointerOverFill;
+                xamlMember.Setter = set_12_Rating_PointerOverFill;
+                break;
+            case "Callisto.Controls.Rating.ReadOnlyFill":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Callisto.Controls.Rating");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "ReadOnlyFill", "Windows.UI.Xaml.Media.SolidColorBrush");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_13_Rating_ReadOnlyFill;
+                xamlMember.Setter = set_13_Rating_ReadOnlyFill;
+                break;
             case "TouristAppV3.View.DetailedPage.DefaultViewModel":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.View.DetailedPage");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "TouristAppV3.Common.ObservableDictionary");
-                xamlMember.Getter = get_0_DetailedPage_DefaultViewModel;
+                xamlMember.Getter = get_14_DetailedPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "TouristAppV3.View.DetailedPage.NavigationHelper":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.View.DetailedPage");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "NavigationHelper", "TouristAppV3.Common.NavigationHelper");
-                xamlMember.Getter = get_1_DetailedPage_NavigationHelper;
+                xamlMember.Getter = get_15_DetailedPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "TouristAppV3.ViewModel.ListHotelViewModel.Hotels":
-                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.ListHotelViewModel");
-                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Hotels", "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.Model.Hotel>");
-                xamlMember.Getter = get_2_ListHotelViewModel_Hotels;
-                xamlMember.Setter = set_2_ListHotelViewModel_Hotels;
+            case "TouristAppV3.View.DetailedPageR.DefaultViewModel":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.View.DetailedPageR");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "TouristAppV3.Common.ObservableDictionary");
+                xamlMember.Getter = get_16_DetailedPageR_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
                 break;
-            case "TouristAppV3.Model.Hotel.Name":
-                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.Model.Hotel");
-                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Name", "String");
-                xamlMember.Getter = get_3_Hotel_Name;
-                xamlMember.Setter = set_3_Hotel_Name;
-                break;
-            case "TouristAppV3.Model.Hotel.Address":
-                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.Model.Hotel");
-                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Address", "String");
-                xamlMember.Getter = get_4_Hotel_Address;
-                xamlMember.Setter = set_4_Hotel_Address;
-                break;
-            case "TouristAppV3.Model.Hotel.TelephoneNumber":
-                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.Model.Hotel");
-                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "TelephoneNumber", "String");
-                xamlMember.Getter = get_5_Hotel_TelephoneNumber;
-                xamlMember.Setter = set_5_Hotel_TelephoneNumber;
-                break;
-            case "TouristAppV3.Model.Hotel.Prices":
-                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.Model.Hotel");
-                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Prices", "String");
-                xamlMember.Getter = get_6_Hotel_Prices;
-                xamlMember.Setter = set_6_Hotel_Prices;
-                break;
-            case "TouristAppV3.Model.Hotel.Description":
-                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.Model.Hotel");
-                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Description", "String");
-                xamlMember.Getter = get_7_Hotel_Description;
-                xamlMember.Setter = set_7_Hotel_Description;
-                break;
-            case "TouristAppV3.Model.Hotel.ImageUrl":
-                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.Model.Hotel");
-                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "ImageUrl", "String");
-                xamlMember.Getter = get_8_Hotel_ImageUrl;
-                xamlMember.Setter = set_8_Hotel_ImageUrl;
-                break;
-            case "TouristAppV3.ViewModel.ListHotelViewModel.SelectedHotel":
-                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.ListHotelViewModel");
-                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "SelectedHotel", "TouristAppV3.Model.Hotel");
-                xamlMember.Getter = get_9_ListHotelViewModel_SelectedHotel;
-                xamlMember.Setter = set_9_ListHotelViewModel_SelectedHotel;
+            case "TouristAppV3.View.DetailedPageR.NavigationHelper":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.View.DetailedPageR");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "NavigationHelper", "TouristAppV3.Common.NavigationHelper");
+                xamlMember.Getter = get_17_DetailedPageR_NavigationHelper;
+                xamlMember.SetIsReadOnly();
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.NormalStateImageSource":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "NormalStateImageSource", "Windows.UI.Xaml.Media.ImageSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_10_ImageButton_NormalStateImageSource;
-                xamlMember.Setter = set_10_ImageButton_NormalStateImageSource;
+                xamlMember.Getter = get_18_ImageButton_NormalStateImageSource;
+                xamlMember.Setter = set_18_ImageButton_NormalStateImageSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.HoverStateImageSource":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "HoverStateImageSource", "Windows.UI.Xaml.Media.ImageSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_11_ImageButton_HoverStateImageSource;
-                xamlMember.Setter = set_11_ImageButton_HoverStateImageSource;
+                xamlMember.Getter = get_19_ImageButton_HoverStateImageSource;
+                xamlMember.Setter = set_19_ImageButton_HoverStateImageSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.Stretch":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Stretch", "Windows.UI.Xaml.Media.Stretch");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_12_ImageButton_Stretch;
-                xamlMember.Setter = set_12_ImageButton_Stretch;
+                xamlMember.Getter = get_20_ImageButton_Stretch;
+                xamlMember.Setter = set_20_ImageButton_Stretch;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.RecyclePressedStateImageForHover":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "RecyclePressedStateImageForHover", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_13_ImageButton_RecyclePressedStateImageForHover;
-                xamlMember.Setter = set_13_ImageButton_RecyclePressedStateImageForHover;
+                xamlMember.Getter = get_21_ImageButton_RecyclePressedStateImageForHover;
+                xamlMember.Setter = set_21_ImageButton_RecyclePressedStateImageForHover;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.PressedStateImageSource":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "PressedStateImageSource", "Windows.UI.Xaml.Media.ImageSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_14_ImageButton_PressedStateImageSource;
-                xamlMember.Setter = set_14_ImageButton_PressedStateImageSource;
+                xamlMember.Getter = get_22_ImageButton_PressedStateImageSource;
+                xamlMember.Setter = set_22_ImageButton_PressedStateImageSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.DisabledStateImageSource":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "DisabledStateImageSource", "Windows.UI.Xaml.Media.ImageSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_15_ImageButton_DisabledStateImageSource;
-                xamlMember.Setter = set_15_ImageButton_DisabledStateImageSource;
+                xamlMember.Getter = get_23_ImageButton_DisabledStateImageSource;
+                xamlMember.Setter = set_23_ImageButton_DisabledStateImageSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.NormalStateImageUriSource":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "NormalStateImageUriSource", "System.Uri");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_16_ImageButton_NormalStateImageUriSource;
-                xamlMember.Setter = set_16_ImageButton_NormalStateImageUriSource;
+                xamlMember.Getter = get_24_ImageButton_NormalStateImageUriSource;
+                xamlMember.Setter = set_24_ImageButton_NormalStateImageUriSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.HoverStateImageUriSource":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "HoverStateImageUriSource", "System.Uri");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_17_ImageButton_HoverStateImageUriSource;
-                xamlMember.Setter = set_17_ImageButton_HoverStateImageUriSource;
+                xamlMember.Getter = get_25_ImageButton_HoverStateImageUriSource;
+                xamlMember.Setter = set_25_ImageButton_HoverStateImageUriSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.PressedStateImageUriSource":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "PressedStateImageUriSource", "System.Uri");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_18_ImageButton_PressedStateImageUriSource;
-                xamlMember.Setter = set_18_ImageButton_PressedStateImageUriSource;
+                xamlMember.Getter = get_26_ImageButton_PressedStateImageUriSource;
+                xamlMember.Setter = set_26_ImageButton_PressedStateImageUriSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.DisabledStateImageUriSource":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "DisabledStateImageUriSource", "System.Uri");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_19_ImageButton_DisabledStateImageUriSource;
-                xamlMember.Setter = set_19_ImageButton_DisabledStateImageUriSource;
+                xamlMember.Getter = get_27_ImageButton_DisabledStateImageUriSource;
+                xamlMember.Setter = set_27_ImageButton_DisabledStateImageUriSource;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.GenerateMissingImages":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "GenerateMissingImages", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_20_ImageButton_GenerateMissingImages;
-                xamlMember.Setter = set_20_ImageButton_GenerateMissingImages;
+                xamlMember.Getter = get_28_ImageButton_GenerateMissingImages;
+                xamlMember.Setter = set_28_ImageButton_GenerateMissingImages;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.GeneratedHoverStateLightenAmount":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "GeneratedHoverStateLightenAmount", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_21_ImageButton_GeneratedHoverStateLightenAmount;
-                xamlMember.Setter = set_21_ImageButton_GeneratedHoverStateLightenAmount;
+                xamlMember.Getter = get_29_ImageButton_GeneratedHoverStateLightenAmount;
+                xamlMember.Setter = set_29_ImageButton_GeneratedHoverStateLightenAmount;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.GeneratedPressedStateLightenAmount":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "GeneratedPressedStateLightenAmount", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_22_ImageButton_GeneratedPressedStateLightenAmount;
-                xamlMember.Setter = set_22_ImageButton_GeneratedPressedStateLightenAmount;
+                xamlMember.Getter = get_30_ImageButton_GeneratedPressedStateLightenAmount;
+                xamlMember.Setter = set_30_ImageButton_GeneratedPressedStateLightenAmount;
                 break;
             case "WinRTXamlToolkit.Controls.ImageButton.GeneratedDisabledStateGrayscaleAmount":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.ImageButton");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "GeneratedDisabledStateGrayscaleAmount", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_23_ImageButton_GeneratedDisabledStateGrayscaleAmount;
-                xamlMember.Setter = set_23_ImageButton_GeneratedDisabledStateGrayscaleAmount;
+                xamlMember.Getter = get_31_ImageButton_GeneratedDisabledStateGrayscaleAmount;
+                xamlMember.Setter = set_31_ImageButton_GeneratedDisabledStateGrayscaleAmount;
                 break;
             case "TouristAppV3.View.ListPageHotels.DefaultViewModel":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.View.ListPageHotels");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "TouristAppV3.Common.ObservableDictionary");
-                xamlMember.Getter = get_24_ListPageHotels_DefaultViewModel;
+                xamlMember.Getter = get_32_ListPageHotels_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "TouristAppV3.View.ListPageHotels.NavigationHelper":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.View.ListPageHotels");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "NavigationHelper", "TouristAppV3.Common.NavigationHelper");
-                xamlMember.Getter = get_25_ListPageHotels_NavigationHelper;
+                xamlMember.Getter = get_33_ListPageHotels_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "TouristAppV3.View.ListPage.DefaultViewModel":
-                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.View.ListPage");
+            case "TouristAppV3.ViewModel.ListRestaurantsViewModel.r1":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.ListRestaurantsViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "r1", "TouristAppV3.Model.Restaurant");
+                xamlMember.Getter = get_34_ListRestaurantsViewModel_r1;
+                xamlMember.Setter = set_34_ListRestaurantsViewModel_r1;
+                break;
+            case "TouristAppV3.ViewModel.ListRestaurantsViewModel.r2":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.ListRestaurantsViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "r2", "TouristAppV3.Model.Restaurant");
+                xamlMember.Getter = get_35_ListRestaurantsViewModel_r2;
+                xamlMember.Setter = set_35_ListRestaurantsViewModel_r2;
+                break;
+            case "TouristAppV3.ViewModel.ListRestaurantsViewModel.r3":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.ListRestaurantsViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "r3", "TouristAppV3.Model.Restaurant");
+                xamlMember.Getter = get_36_ListRestaurantsViewModel_r3;
+                xamlMember.Setter = set_36_ListRestaurantsViewModel_r3;
+                break;
+            case "TouristAppV3.ViewModel.ListRestaurantsViewModel.r4":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.ListRestaurantsViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "r4", "TouristAppV3.Model.Restaurant");
+                xamlMember.Getter = get_37_ListRestaurantsViewModel_r4;
+                xamlMember.Setter = set_37_ListRestaurantsViewModel_r4;
+                break;
+            case "TouristAppV3.View.ListPageRestaurants.DefaultViewModel":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.View.ListPageRestaurants");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "TouristAppV3.Common.ObservableDictionary");
-                xamlMember.Getter = get_26_ListPage_DefaultViewModel;
+                xamlMember.Getter = get_38_ListPageRestaurants_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "TouristAppV3.View.ListPage.NavigationHelper":
-                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.View.ListPage");
+            case "TouristAppV3.View.ListPageRestaurants.NavigationHelper":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.View.ListPageRestaurants");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "NavigationHelper", "TouristAppV3.Common.NavigationHelper");
-                xamlMember.Getter = get_27_ListPage_NavigationHelper;
+                xamlMember.Getter = get_39_ListPageRestaurants_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "TouristAppV3.View.MainPage.DefaultViewModel":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.View.MainPage");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "TouristAppV3.Common.ObservableDictionary");
-                xamlMember.Getter = get_28_MainPage_DefaultViewModel;
+                xamlMember.Getter = get_40_MainPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "TouristAppV3.View.MainPage.NavigationHelper":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.View.MainPage");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "NavigationHelper", "TouristAppV3.Common.NavigationHelper");
-                xamlMember.Getter = get_29_MainPage_NavigationHelper;
+                xamlMember.Getter = get_41_MainPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             }

@@ -102,5 +102,7 @@ namespace TouristAppV3.View
         }
 
         #endregion
+
+        
     }
 }

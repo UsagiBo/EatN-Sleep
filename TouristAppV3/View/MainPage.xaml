@@ -59,29 +59,20 @@
             <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
 				IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" Height="40"/>
         </Grid>
-        
-        <Controls:ImageButton x:Name="RestaurantButton" 
-                              Content="R" 
-                              HorizontalAlignment="Left"
-                              Margin="706,170,0,0" 
-                              Grid.Row="1" 
-                              VerticalAlignment="Top" 
-                              Height="246" 
-                              Width="433"
-                              Click="RestaurantButton_Click_1" 
-                              FontSize="150" 
-                              FontWeight="Bold"/>
-        
         <Controls:ImageButton Content="H"
-                              HorizontalAlignment="Left" 
-                              Margin="249,170,0,0" 
-                              Grid.Row="1" 
-                              VerticalAlignment="Top" 
-                              Height="246"
-                              Width="399" 
-                              Click="HotelButton_Click" 
-                              FontWeight="Bold" 
-                              FontSize="150" 
-                              IsHoldingEnabled="False"/>
+        	HorizontalAlignment="Left" 
+        	Margin="249,170,0,0" 
+        	Grid.Row="1" 
+        	VerticalAlignment="Top" 
+        	Height="246"
+        	Width="399" 
+        	Click="HotelButton_Click" 
+        	FontWeight="Bold" 
+        	FontSize="150" 
+        	IsHoldingEnabled="False"/>
+        <Button Content="Button" 
+                HorizontalAlignment="Left" 
+                Margin="800,240,0,0" 
+                Grid.Row="1" VerticalAlignment="Top" Click="Button_Click"/>
     </Grid>
 </Page>

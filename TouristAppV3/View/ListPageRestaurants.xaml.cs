@@ -15,13 +15,15 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
 // The Basic Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234237
+using TouristAppV3.Model;
+using TouristAppV3.ViewModel;
 
 namespace TouristAppV3.View
 {
     /// <summary>
     /// A basic page that provides characteristics common to most applications.
     /// </summary>
-    public sealed partial class ListPage : Page
+    public sealed partial class ListPageRestaurants : Page
     {
 
         private NavigationHelper navigationHelper;
@@ -45,7 +47,7 @@ namespace TouristAppV3.View
         }
 
 
-        public ListPage()
+        public ListPageRestaurants()
         {
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
@@ -67,19 +69,9 @@ namespace TouristAppV3.View
         private void navigationHelper_LoadState(object sender, LoadStateEventArgs e)
         {
         }
-
-        /// <summary>
-        /// Preserves state associated with this page in case the application is suspended or the
-        /// page is discarded from the navigation cache.  Values must conform to the serialization
-        /// requirements of <see cref="SuspensionManager.SessionState"/>.
-        /// </summary>
-        /// <param name="sender">The source of the event; typically <see cref="NavigationHelper"/></param>
-        /// <param name="e">Event data that provides an empty dictionary to be populated with
-        /// serializable state.</param>
         private void navigationHelper_SaveState(object sender, SaveStateEventArgs e)
         {
         }
-
         #region NavigationHelper registration
 
         /// The methods provided in this section are simply used to allow

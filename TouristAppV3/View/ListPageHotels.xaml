@@ -18,11 +18,7 @@
 
     </Page.Resources>
 
-    <!--
-        This grid acts as a root panel for the page that defines two rows:
-        * Row 0 contains the back button and page title
-        * Row 1 contains the rest of the page layout
-    -->
+    
     <Grid>
         <Grid.Background>
             <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/Backgrounds/desaturated.jpg"/>
@@ -46,45 +42,66 @@
                 <ColumnDefinition Width="120"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button x:Name="backButton" Margin="40,50,0,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
-				Style="{StaticResource NavigationBackButtonNormalStyle}"
-				VerticalAlignment="Top"
-				AutomationProperties.Name="Back"
-				AutomationProperties.AutomationId="BackButton"
-				AutomationProperties.ItemType="Navigation Button"/>
+            <Button x:Name="backButton" 
+                    Margin="40,50,0,0" 
+                    Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                    Style="{StaticResource NavigationBackButtonNormalStyle}"
+                    VerticalAlignment="Top"
+                    AutomationProperties.Name="Back"
+                    AutomationProperties.AutomationId="BackButton"
+                    AutomationProperties.ItemType="Navigation Button"/>
             <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
 				IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
 
         </Grid>
-
-        <Controls:ImageButton Content="Danhostel Roskilde" 
-                              HorizontalAlignment="Left" 
-                              Margin="70,95,0,0" 
-                              Grid.Row="1" 
-                              VerticalAlignment="Top"
-                              Width="300"
-                              Height="200" NormalStateImageSource="ms-appx:///Assets/Hotels/HotelDanhostelTh.jpg" FontSize="18" HoverStateImageSource="ms-appx:///Assets/Hotels/HotelDanhostelDark.jpg"/>
-        <Controls:ImageButton Content="Hotel Comwell" 
+        <Controls:ImageButton 
+            HorizontalAlignment="Left" 
+            Margin="70,95,0,0" 
+            Grid.Row="1" 
+            VerticalAlignment="Top"
+            Width="300"
+            Height="200"
+            NormalStateImageSource="ms-appx:///Assets/Hotels/HotelDanhostelTh.jpg" 
+            FontSize="18"
+            HoverStateImageSource="ms-appx:///Assets/Hotels/HotelDanhostelDark.jpg"
+            Click="ImageButton_Click"
+            Content="{Binding h1}"/>
+        
+        <Controls:ImageButton 
         	HorizontalAlignment="Left" 
         	Margin="375,95,0,0" 
         	Grid.Row="1" 
         	VerticalAlignment="Top"
         	Width="300"
-        	Height="200" NormalStateImageSource="ms-appx:///Assets/Hotels/HotelComwellTh.jpg" FontSize="18" HoverStateImageSource="ms-appx:///Assets/Hotels/HotelComwellDark.jpg"/>
-        <Controls:ImageButton Content="Hotel Prindsen" 
+        	Height="200" 
+            NormalStateImageSource="ms-appx:///Assets/Hotels/HotelComwellTh.jpg"
+            FontSize="18" 
+            HoverStateImageSource="ms-appx:///Assets/Hotels/HotelComwellDark.jpg" 
+            Click="ImageButton_Click_1"
+            Content= "{Binding h2}"/>
+        
+        <Controls:ImageButton 
         	HorizontalAlignment="Left" 
         	Margin="680,95,0,0" 
         	Grid.Row="1" 
         	VerticalAlignment="Top"
         	Width="300"
-        	Height="200" NormalStateImageSource="ms-appx:///Assets/Hotels/HotelPrindsenTh.jpg" FontSize="18" HoverStateImageSource="ms-appx:///Assets/Hotels/HotelPrindsenDark.jpg"/>
-        <Controls:ImageButton Content="Hotel Scandic" 
+        	Height="200" NormalStateImageSource="ms-appx:///Assets/Hotels/HotelPrindsenTh.jpg"
+            FontSize="18" 
+            HoverStateImageSource="ms-appx:///Assets/Hotels/HotelPrindsenDark.jpg"
+            Content="{Binding h3}" Click="ImageButton_Click_2"/>
+        
+        <Controls:ImageButton 
         	HorizontalAlignment="Left" 
         	Margin="985,95,0,0" 
         	Grid.Row="1" 
         	VerticalAlignment="Top"
         	Width="300"
-        	Height="200" NormalStateImageSource="ms-appx:///Assets/Hotels/HotelScandicTh.jpg" FontSize="18" HoverStateImageSource="ms-appx:///Assets/Hotels/HotelScandicDark.jpg"/>
+        	Height="200"
+            NormalStateImageSource="ms-appx:///Assets/Hotels/HotelScandicTh.jpg" 
+            FontSize="18" 
+            HoverStateImageSource="ms-appx:///Assets/Hotels/HotelScandicDark.jpg"
+            Content="{Binding h4}" Click="ImageButton_Click_3"/>
 
     </Grid>
 </Page>

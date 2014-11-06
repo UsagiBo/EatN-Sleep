@@ -3,71 +3,115 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
+using System.Xml;
+using System.Xml.Linq;
+using System.Xml.Serialization;
+using Windows.Data.Xml.Dom;
+using Windows.Storage;
+using Windows.UI.Core;
+using Windows.UI.Popups;
 using Windows.UI.Xaml.Controls;
 using TouristAppV3.Annotations;
+using TouristAppV3.Common;
 using TouristAppV3.Model;
 
 namespace TouristAppV3.ViewModel
 {
-    internal class ListHotelViewModel : INotifyPropertyChanged
+    class ListHotelViewModel : INotifyPropertyChanged
+    {
+        private StorageFolder _storageFolder = ApplicationData.Current.LocalFolder;
 
-{
-        private Hotel _selectedHotel;
+        private Hotel _h1;
+        private Hotel _h2;
+        private Hotel _h3;
+        private Hotel _h4;
+        private string _hotelComment;
+        private CommentModelHotel _comment;
+        private ICommand _serializeComment;
 
-        public ListHotelViewModel()
+        public static Hotel ActualHotel { get; set; }
+    
+        
+        public CommentModelHotel Comment
         {
-            #region Hotels
-
-            Hotel h1 = new Hotel()
-            {
-                Name = "Bed & Breakfast",
-                Address = "Skomagergade 10, Roskilde 4000, Denmark",
-                TelephoneNumber = "+45 40 44 60 04",
-                ImageUrl = @"Assets\Hotels\h1_0.jpg"
-            };
-            Hotel h2 = new Hotel()
-            {
-                Name = "Hotel Prindsen",
-                Address = "AlGade 13, Roskilde 4000, Denmark",
-                TelephoneNumber = "+45 46 30 91 00",
-                ImageUrl = @"Assets\Hotels\h2_0.jpg"
-            };
-            Hotel h3 = new Hotel()
-            {
-                Name = "Comwell Roskilde",
-                Address = "Vestre Kirkevej 12, 4000 Roskilde, Denmark",
-                TelephoneNumber = "+45 46 32 31 31",
-                ImageUrl = @"Assets\Hotels\h3_0.jpg"
-            };
-            Hotel h4 = new Hotel()
-            {
-                Name = "Scandic Roskilde",
-                Address = "	Søndre Ringvej 33, 4000 Roskilde, Denmark",
-                TelephoneNumber = "+45 46 32 46 32",
-                ImageUrl = @"Assets\Hotels\h4_0.jpg"
-            };
-            #endregion
-
-            Hotels = new ObservableCollection<Hotel>() { h1, h2, h3, h4 };
-
-        }
-       
-        public ObservableCollection<Hotel> Hotels { get; set; }
-
-        public Hotel SelectedHotel
-        {
-            get { return _selectedHotel; }
+            get { return _comment; }
             set
             {
-                _selectedHotel = value;
-                OnPropertyChanged("SelectedHotel");
+                _comment = value;
+                OnPropertyChanged("Comment");
             }
-        }   
-        #region
+        }
+        public ICommand SerializeComment
+        {
+            get { return _serializeComment; }
+            set { _serializeComment = value; }
+        }
+
+        #region properties
+        public Hotel h1
+        {
+            get { return _h1; }
+            set { _h1 = value; }
+        }
+
+        public Hotel h2
+        {
+            get { return _h2; }
+            set { _h2 = value; }
+        }
+
+        public Hotel h3
+        {
+            get { return _h3; }
+            set { _h3 = value; }
+        }
+
+        public Hotel h4
+        {
+            get { return _h4; }
+            set { _h4 = value; }
+        }
+
+        
+        public string hotelComment
+        {
+            get { return _hotelComment; }
+            set { _hotelComment = value; }
+        }
+
+        
+        #endregion
+
+        #region constructor
+        public ListHotelViewModel()
+        {
+            _h1 = new Hotel("Danhostel Roskilde", "Vindeboder 7, Roskilde 4000, Denmark", "+45 4635 2184", "No Stars!", "../Assets/Hotels/HotelDanhostel.jpg", "../Assets/XML/Hotels/HotelPrindesn.xml");
+            _h2 = new Hotel("Hotel Prindsen", "Algade 13, Roskilde 4000, Denmark", "+45 46 30 91 00", "4 stars", "../Assets/Hotels/HotelPrindsen.jpg", "../Assets/XML/Hotels/HotelPrindesn.xml");
+            _h3 = new Hotel("Comwell Roskilde", "Skomagergade 10, Roskilde 4000, Denmark", "+45 40 44 60 04", "3 Stars", "../Assets/Hotels/HotelComwell.jpg", "../Assets/XML/Hotels/HotelPrindesn.xml");
+            _h4 = new Hotel("Scandic Roskilde", "Søndre Ringvej 33, 4000 Roskilde, Denmark", "+45 46 32 46 32", "4 Stars", "../Assets/Hotels/HotelDanhostel.jpg", "../Assets/XML/Hotels/HotelPrindesn.xml");
+            _comment = new CommentModelHotel();
+            _serializeComment = new RelayCommand(SerializeNewComment);
+
+        }
+
+        private async void SerializeNewComment()
+        {
+            StorageFolder storageFolder = ApplicationData.Current.LocalFolder;
+            Stream stream = await storageFolder.OpenStreamForWriteAsync("hotel.xml", CreationCollisionOption.ReplaceExisting);
+
+            DataContractSerializer serializer = new DataContractSerializer(typeof(CommentModelHotel));
+            serializer.WriteObject(stream, _comment);
+        }
+        #endregion
+    
+        #region INotifyPropertyChanged
         public event PropertyChangedEventHandler PropertyChanged;
         [NotifyPropertyChangedInvocator]
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)

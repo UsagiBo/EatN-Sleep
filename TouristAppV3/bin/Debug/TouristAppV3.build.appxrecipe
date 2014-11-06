@@ -19,6 +19,9 @@
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\TouristAppV3.exe">
       <PackagePath>TouristAppV3.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\App5\packages\Callisto.1.4.0\lib\netcore451\Callisto.dll">
+      <PackagePath>Callisto.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit.dll">
       <PackagePath>WinRTXamlToolkit.dll</PackagePath>
     </AppxPackagedFile>
@@ -64,6 +67,30 @@
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Hotels\HotelScandicTh.jpg">
       <PackagePath>Assets\Hotels\HotelScandicTh.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Restaurans\RestGusto.jpg">
+      <PackagePath>Assets\Restaurans\RestGusto.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Restaurans\RestGustoDark.jpg">
+      <PackagePath>Assets\Restaurans\RestGustoDark.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Restaurans\RestMumm.jpg">
+      <PackagePath>Assets\Restaurans\RestMumm.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Restaurans\RestMummDark.jpg">
+      <PackagePath>Assets\Restaurans\RestMummDark.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Restaurans\RestSkank.jpg">
+      <PackagePath>Assets\Restaurans\RestSkank.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Restaurans\RestSkankDark.jpg">
+      <PackagePath>Assets\Restaurans\RestSkankDark.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Restaurans\RestVigen.jpg">
+      <PackagePath>Assets\Restaurans\RestVigen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Restaurans\RestVigenDark.jpg">
+      <PackagePath>Assets\Restaurans\RestVigenDark.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -80,6 +107,12 @@
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\XML\Hotel.xml">
+      <PackagePath>Assets\XML\Hotel.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\XML\Hotels\HotelPrindsen.xml">
+      <PackagePath>Assets\XML\Hotels\HotelPrindsen.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\ViewModel\DescriptionHotels.xml">
       <PackagePath>ViewModel\DescriptionHotels.xml</PackagePath>
     </AppxPackagedFile>
@@ -88,6 +121,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\View\DetailedPage.xbf">
       <PackagePath>View\DetailedPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\View\DetailedPageR.xbf">
+      <PackagePath>View\DetailedPageR.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\View\ListPageHotels.xbf">
       <PackagePath>View\ListPageHotels.xbf</PackagePath>
@@ -100,6 +136,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\TouristAppV3.xr.xml">
       <PackagePath>TouristAppV3.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\App5\packages\Callisto.1.4.0\lib\netcore451\Callisto\themes\Generic.xbf">
+      <PackagePath>Callisto\themes\Generic.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\WinRTXamlToolkit.xr.xml">
       <PackagePath>WinRTXamlToolkit\WinRTXamlToolkit.xr.xml</PackagePath>

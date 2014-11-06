@@ -108,20 +108,15 @@ namespace TouristAppV3.View
 
         private void HotelButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof (ListPageHotels), null);
+            this.Frame.Navigate(typeof(ListPageHotels), null);
         }
 
-        
-
-        private void RestaurantButton_Click_1(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(ListPage), null);
+
+            this.Frame.Navigate(typeof(ListPageRestaurants), null);
         }
 
-       
 
-       
-
-       
     }
 }
