@@ -59,6 +59,9 @@
         <TextBlock HorizontalAlignment="Left" Margin="215,460,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="430" Text="{Binding ActualHotel.Address}" FontSize="40" Height="41"/>
         <TextBlock HorizontalAlignment="Left" Margin="215,501,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="430" Text="{Binding ActualHotel.Category}" FontSize="40" Height="50"/>
         <TextBlock HorizontalAlignment="Left" Margin="385,551,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="350" Text="{Binding ActualHotel.TelephoneNumber}" FontSize="40" Height="45"/>
+        <Image HorizontalAlignment="Left" Height="464" Margin="766,35,0,0" VerticalAlignment="Top" Width="559" Source="ms-appx:///Assets/Backgrounds/FrameMyTV1083.jpg" Grid.Row="1"/>
+        <Image HorizontalAlignment="Left" Height="293" Margin="852,120,0,0" Grid.Row="1" VerticalAlignment="Top" Width="378" Stretch="UniformToFill" Source="{Binding ActualHotel.ImageUrl, Mode=TwoWay}"/>
+
         <AppBar>
             <AppBarButton Label="Rate!" 
                           Icon="Favorite" 

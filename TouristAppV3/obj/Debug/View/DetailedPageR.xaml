@@ -7,6 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:ViewModel="using:TouristAppV3.ViewModel"
     x:Name="pageRoot"
+    xmlns:Controls1="using:Callisto.Controls"
     x:Class="TouristAppV3.View.DetailedPageR"
     DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Mode=Self}}"
     mc:Ignorable="d">
@@ -65,7 +66,33 @@
         <TextBlock HorizontalAlignment="Left" Margin="405,542,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="425" Text="{Binding ActualRestaurant.TelephoneNumber}" FontSize="40" Height="43"/>
         <TextBlock HorizontalAlignment="Left" Margin="46,499,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Text="Opening hours:" FontSize="40" Height="46" Width="274"/>
         <Image HorizontalAlignment="Left" Height="464" Margin="766,35,0,0" VerticalAlignment="Top" Width="559" Source="ms-appx:///Assets/Backgrounds/FrameMyTV1083.jpg" Grid.Row="1"/>
-        <Image HorizontalAlignment="Left" Height="293" Margin="852,120,0,0" Grid.Row="1" VerticalAlignment="Top" Width="378" Source="{Binding ActualRestaurant.ImageUrl, Mode=TwoWay}"/>
+        <Image HorizontalAlignment="Left" Height="293" Margin="852,120,0,0" Grid.Row="1" VerticalAlignment="Top" Width="378" Stretch="UniformToFill" Source="{Binding ActualRestaurant.ImageUrl, Mode=TwoWay}"/>
+        <AppBar>
+            <AppBarButton Label="Rate!" 
+                          Icon="Favorite" 
+                          HorizontalAlignment="Right" 
+                          VerticalAlignment="Center">
+                <Button.Flyout>
+                    <Flyout>
+                        <StackPanel Width="262">
+                            <TextBox TextWrapping="Wrap" 
+                                     Text="{Binding Comment.writeComment, Mode=TwoWay}"/>
+                            <Controls1:Rating x:Name="CRS"
+                                              ItemCount="5"
+                                              Background="Transparent"
+                                              Foreground="Gold"
+                                              Grid.Row="1*"/>
+                            <Button Content="Button" 
+                                    HorizontalAlignment="Stretch" 
+                                    VerticalAlignment="Stretch" 
+                                    Height="37"
+                                    Command="{Binding SerializeComment}"/>
+                        </StackPanel>
+                    </Flyout>
+                </Button.Flyout>
+            </AppBarButton>
+
+        </AppBar>
     </Grid>
 </Page>
 

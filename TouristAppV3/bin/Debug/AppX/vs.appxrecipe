@@ -26,7 +26,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\TouristAppV3.exe">
       <PackagePath>TouristAppV3.exe</PackagePath>
-      <Modified>2014-11-06T12:36:13.346</Modified>
+      <Modified>2014-11-06T13:53:46.209</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\App5\packages\Callisto.1.4.0\lib\netcore451\Callisto.dll">
       <PackagePath>Callisto.dll</PackagePath>
@@ -182,27 +182,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\View\DetailedPage.xbf">
       <PackagePath>View\DetailedPage.xbf</PackagePath>
-      <Modified>2014-11-06T12:33:19.145</Modified>
+      <Modified>2014-11-06T13:10:59.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\View\DetailedPageR.xbf">
       <PackagePath>View\DetailedPageR.xbf</PackagePath>
-      <Modified>2014-11-06T12:36:12.993</Modified>
+      <Modified>2014-11-06T13:10:59.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\View\ListPageHotels.xbf">
       <PackagePath>View\ListPageHotels.xbf</PackagePath>
-      <Modified>2014-10-31T13:41:26.000</Modified>
+      <Modified>2014-11-06T13:16:41.015</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\View\ListPageRestaurants.xbf">
       <PackagePath>View\ListPageRestaurants.xbf</PackagePath>
-      <Modified>2014-11-06T12:33:19.146</Modified>
+      <Modified>2014-11-06T13:10:59.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\View\MainPage.xbf">
       <PackagePath>View\MainPage.xbf</PackagePath>
-      <Modified>2014-11-04T08:56:54.000</Modified>
+      <Modified>2014-11-06T13:53:45.847</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\TouristAppV3.xr.xml">
       <PackagePath>TouristAppV3.xr.xml</PackagePath>
-      <Modified>2014-11-06T12:32:14.656</Modified>
+      <Modified>2014-11-06T13:53:17.378</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\App5\packages\Callisto.1.4.0\lib\netcore451\Callisto\themes\Generic.xbf">
       <PackagePath>Callisto\themes\Generic.xbf</PackagePath>

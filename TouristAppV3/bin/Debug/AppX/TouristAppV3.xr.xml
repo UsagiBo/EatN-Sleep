@@ -6,6 +6,7 @@
     <RootPropertyPathName Name="Comment" />
     <RootPropertyPathName Name="writeComment" />
     <RootPropertyPathName Name="ActualHotel" />
+    <RootPropertyPathName Name="ImageUrl" />
     <RootPropertyPathName Name="TelephoneNumber" />
     <RootPropertyPathName Name="Category" />
     <RootPropertyPathName Name="Address" />
@@ -13,7 +14,6 @@
     <RootPropertyPathName Name="NavigationHelper" />
     <RootPropertyPathName Name="GoBackCommand" />
     <RootPropertyPathName Name="ActualRestaurant" />
-    <RootPropertyPathName Name="ImageUrl" />
     <RootPropertyPathName Name="OpeningHours" />
     <RootPropertyPathName Name="Cuisine" />
     <RootPropertyPathName Name="h4" />
@@ -52,8 +52,6 @@
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
-      <RootMethod Name="GetRowSpan" />
-      <RootMethod Name="SetRowSpan" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="Stretch" />
@@ -76,6 +74,15 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Style" />
       <RootProperty Name="IsHitTestVisible" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Source" />
+      <RootProperty Name="Stretch" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.AppBar">
       <RootProperty Name="Content" />
@@ -112,7 +119,6 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Style" />
       <RootProperty Name="Width" />
-      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
@@ -128,14 +134,6 @@
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="TouristAppV3.View.DetailedPage" />
     <RootType FullName="TouristAppV3.ViewModel.ListRestaurantsViewModel" />
-    <RootType FullName="Windows.UI.Xaml.Controls.Image">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Source" />
-    </RootType>
     <RootType FullName="TouristAppV3.View.DetailedPageR" />
     <RootType FullName="WinRTXamlToolkit.Controls.ImageButton">
       <RootProperty Name="HorizontalAlignment" />
