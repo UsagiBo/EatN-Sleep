@@ -12,6 +12,10 @@
     <RootPropertyPathName Name="Name" />
     <RootPropertyPathName Name="NavigationHelper" />
     <RootPropertyPathName Name="GoBackCommand" />
+    <RootPropertyPathName Name="ActualRestaurant" />
+    <RootPropertyPathName Name="ImageUrl" />
+    <RootPropertyPathName Name="OpeningHours" />
+    <RootPropertyPathName Name="Cuisine" />
     <RootPropertyPathName Name="h4" />
     <RootPropertyPathName Name="h3" />
     <RootPropertyPathName Name="h2" />
@@ -121,7 +125,15 @@
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="TouristAppV3.View.DetailedPage" />
-    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="TouristAppV3.ViewModel.ListRestaurantsViewModel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Source" />
+    </RootType>
     <RootType FullName="TouristAppV3.View.DetailedPageR" />
     <RootType FullName="WinRTXamlToolkit.Controls.ImageButton">
       <RootProperty Name="HorizontalAlignment" />
@@ -138,7 +150,6 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="TouristAppV3.View.ListPageHotels" />
-    <RootType FullName="TouristAppV3.ViewModel.ListRestaurantsViewModel" />
     <RootType FullName="TouristAppV3.View.ListPageRestaurants" />
     <RootType FullName="TouristAppV3.ViewModel.MainViewModel" />
     <RootType FullName="TouristAppV3.View.MainPage" />

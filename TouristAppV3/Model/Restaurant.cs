@@ -17,7 +17,6 @@ namespace TouristAppV3.Model
         private string _telephoneNumber;
         private string _cuisine;
         private string _imageUrl;
-        private object _openinghours;
         private string _openingHours;
 
 

@@ -94,5 +94,31 @@ namespace TouristAppV3.View
         }
 
         #endregion
+
+        private void ImageButton_Click(object sender, RoutedEventArgs e)
+        {
+            ListRestaurantsViewModel.ActualRestaurant = (Restaurant) ((Button) sender).Content;
+            this.Frame.Navigate(typeof(DetailedPageR), null);
+        }
+
+        private void ImageButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            ListRestaurantsViewModel.ActualRestaurant = (Restaurant)((Button)sender).Content;
+            this.Frame.Navigate(typeof(DetailedPageR), null);
+        }
+
+        private void ImageButton_Click_2(object sender, RoutedEventArgs e)
+        {
+            ListRestaurantsViewModel.ActualRestaurant = (Restaurant)((Button)sender).Content;
+            this.Frame.Navigate(typeof(DetailedPageR), null);
+        }
+
+        private void ImageButton_Click_3(object sender, RoutedEventArgs e)
+        {
+            ListRestaurantsViewModel.ActualRestaurant = (Restaurant)((Button)sender).Content;
+            this.Frame.Navigate(typeof(DetailedPageR), null);
+        }
+
+        
     }
 }

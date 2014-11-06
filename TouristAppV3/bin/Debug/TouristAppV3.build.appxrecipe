@@ -28,6 +28,9 @@
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Backgrounds\desaturated.jpg">
       <PackagePath>Assets\Backgrounds\desaturated.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Backgrounds\FrameMyTV1083.jpg">
+      <PackagePath>Assets\Backgrounds\FrameMyTV1083.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Backgrounds\Rainbow_Colorful_wood_background.jpg">
       <PackagePath>Assets\Backgrounds\Rainbow_Colorful_wood_background.jpg</PackagePath>
     </AppxPackagedFile>
@@ -67,6 +70,12 @@
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Hotels\HotelScandicTh.jpg">
       <PackagePath>Assets\Hotels\HotelScandicTh.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Restaurans\GustoRoskilde.jpg">
+      <PackagePath>Assets\Restaurans\GustoRoskilde.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Restaurans\MummRoskilde.jpg">
+      <PackagePath>Assets\Restaurans\MummRoskilde.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Restaurans\RestGusto.jpg">
       <PackagePath>Assets\Restaurans\RestGusto.jpg</PackagePath>
     </AppxPackagedFile>
@@ -90,6 +99,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Restaurans\RestVigenDark.jpg">
       <PackagePath>Assets\Restaurans\RestVigenDark.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Restaurans\SkankRoskilde.jpg">
+      <PackagePath>Assets\Restaurans\SkankRoskilde.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Restaurans\VigenRoskilde.jpg">
+      <PackagePath>Assets\Restaurans\VigenRoskilde.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>

@@ -145,6 +145,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Backgrounds\desaturated.jpg" />
+    <Content Include="Assets\Backgrounds\FrameMyTV1083.jpg" />
     <Content Include="Assets\Backgrounds\Rainbow_Colorful_wood_background.jpg" />
     <Content Include="Assets\Hotels\HotelComwell.jpg" />
     <Content Include="Assets\Hotels\HotelComwellDark.jpg" />
@@ -159,6 +160,8 @@
     <Content Include="Assets\Hotels\HotelScandicDark.jpg" />
     <Content Include="Assets\Hotels\HotelScandicTh.jpg" />
     <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\Restaurans\GustoRoskilde.jpg" />
+    <Content Include="Assets\Restaurans\MummRoskilde.jpg" />
     <Content Include="Assets\Restaurans\RestGusto.jpg" />
     <Content Include="Assets\Restaurans\RestGustoDark.jpg" />
     <Content Include="Assets\Restaurans\RestMumm.jpg" />
@@ -167,6 +170,8 @@
     <Content Include="Assets\Restaurans\RestSkankDark.jpg" />
     <Content Include="Assets\Restaurans\RestVigen.jpg" />
     <Content Include="Assets\Restaurans\RestVigenDark.jpg" />
+    <Content Include="Assets\Restaurans\SkankRoskilde.jpg" />
+    <Content Include="Assets\Restaurans\VigenRoskilde.jpg" />
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />

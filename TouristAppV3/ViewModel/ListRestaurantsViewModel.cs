@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
+using Windows.Storage;
 using Windows.UI.Xaml.Controls;
 using TouristAppV3.Annotations;
 using TouristAppV3.Model;
@@ -19,8 +23,23 @@ namespace TouristAppV3.ViewModel
         private Restaurant _r2;
         private Restaurant _r3;
         private Restaurant _r4;
+        private CommentModelRestaurant _comment;
+        private ICommand _serializeComment;
+        private string _restaurantComment;
 
-        public static Restaurant ActualRestaurant { get; set; }
+        public static Restaurant ActualRestaurant{ get; set; }
+
+        public CommentModelRestaurant Comment
+        {
+            get { return _comment; }
+            set { _comment = value; }
+        }
+
+        public ICommand SerializeComment
+        {
+            get { return _serializeComment; }
+            set { _serializeComment = value; }
+        }
 
         #region properties
         public Restaurant r1
@@ -46,13 +65,31 @@ namespace TouristAppV3.ViewModel
             get { return _r4; }
             set { _r4 = value; }
         }
+
+        public string RestaurantComment
+        {
+            get { return _restaurantComment; }
+            set { _restaurantComment = value; }
+        }
+
         #endregion
         public ListRestaurantsViewModel()
         {
-            _r1 = new Restaurant("Mumm", "Karen Olsdatter Straede 9, Roskilde 4000, Denmark", "+45 4637-2201", "French, Danish", "Mon - Sat 17:30 - 21:30", "../Assets/Restaurants/RestMumm.jpg");
-            _r2 = new Restaurant("Skank", "Hestetorvet 10, Roskilde 4000, Denmark", "+45 3214-3204", "Tapas", "Mon - Sun 11:00 - 23:00", "../Assets/Restaurants/RestSkank.jpg");
-            _r3 = new Restaurant("Gusto Giusto", "Jernbanegade 19, Roskilde 4000, Denmark", "+45 4632-7377", "Italian", "Mon - Sat 14:00 - 23:00", "../Assets/Restaurants/RestGusto.jpg");
-            _r4 = new Restaurant("Vigen", "Baunehojve 5, 4000 Roskilde, Denmark", "+45 6475-5008", "European-Danish", "Sun - Sat 12:00 - 22:00", "../Assets/Restaurants/RestVigen.jpg");
+            _r1 = new Restaurant("Mumm", "Karen Olsdatter Straede 9, Roskilde 4000, Denmark", "+45 4637-2201", "French, Danish", "Mon - Sat 17:30 - 21:30", "../Assets/Restaurants/MummRoskilde.jpg");
+            _r2 = new Restaurant("Skank", "Hestetorvet 10, Roskilde 4000, Denmark", "+45 3214-3204", "Tapas", "Mon - Sun 11:00 - 23:00", "../Assets/Restaurants/SkankRoskilde.jpg");
+            _r3 = new Restaurant("Gusto Giusto", "Jernbanegade 19, Roskilde 4000, Denmark", "+45 4632-7377", "Italian", "Mon - Sat 14:00 - 23:00", "../Assets/Restaurants/GustoRoskilde.jpg");
+            _r4 = new Restaurant("Vigen", "Baunehojve 5, 4000 Roskilde, Denmark", "+45 6475-5008", "European-Danish", "Sun - Sat 12:00 - 22:00", "../Assets/Restaurants/VigenRoskilde.jpg");
+            _comment = new CommentModelRestaurant();
+            _serializeComment = new Common.RelayCommand(SerializeNewRComment);
+        }
+
+        private async void SerializeNewRComment()
+        {
+            StorageFolder storageFolder = ApplicationData.Current.LocalFolder;
+            Stream stream = await storageFolder.OpenStreamForWriteAsync("restaurants.xml", CreationCollisionOption.ReplaceExisting);
+
+            DataContractSerializer serializer = new DataContractSerializer(typeof(CommentModelRestaurant));
+            serializer.WriteObject(stream, _comment);
         }
         #region InotifyPropertyChanged
         public event PropertyChangedEventHandler PropertyChanged;

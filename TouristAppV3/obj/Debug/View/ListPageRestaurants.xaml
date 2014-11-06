@@ -57,7 +57,7 @@
 				IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
 
         </Grid>
-        <Controls:ImageButton HorizontalAlignment="Left" 
+        <Controls:ImageButton x:ConnectionId='1' HorizontalAlignment="Left" 
             Margin="70,95,0,0" 
             Grid.Row="1" 
             VerticalAlignment="Top"
@@ -66,8 +66,8 @@
             NormalStateImageSource="ms-appx:///Assets/Restaurans/RestMumm.jpg" 
             FontSize="18"
             HoverStateImageSource="ms-appx:///Assets/Restaurans/RestMummDark.jpg" 
-                              Content="{Binding r1, Mode=TwoWay}"/>
-        <Controls:ImageButton HorizontalAlignment="Left" 
+                              Content="{Binding r1, Mode=TwoWay}"                          />
+        <Controls:ImageButton x:ConnectionId='2' HorizontalAlignment="Left" 
         	Margin="375,95,0,0" 
         	Grid.Row="1" 
         	VerticalAlignment="Top"
@@ -76,8 +76,8 @@
         	NormalStateImageSource="ms-appx:///Assets/Restaurans/RestSkank.jpg" 
         	FontSize="18"
         	HoverStateImageSource="ms-appx:///Assets/Restaurans/RestSkankDark.jpg" 
-        	Content="{Binding r2, Mode=TwoWay}"/>
-        <Controls:ImageButton HorizontalAlignment="Left" 
+        	Content="{Binding r2, Mode=TwoWay}"                            />
+        <Controls:ImageButton x:ConnectionId='3' HorizontalAlignment="Left" 
         	Margin="680,95,0,0" 
         	Grid.Row="1" 
         	VerticalAlignment="Top"
@@ -86,8 +86,8 @@
         	NormalStateImageSource="ms-appx:///Assets/Restaurans/RestGusto.jpg" 
         	FontSize="18"
         	HoverStateImageSource="ms-appx:///Assets/Restaurans/RestGustoDark.jpg" 
-        	Content="{Binding r3, Mode=TwoWay}"/>
-        <Controls:ImageButton HorizontalAlignment="Left" 
+        	Content="{Binding r3, Mode=TwoWay}"                            />
+        <Controls:ImageButton x:ConnectionId='4' HorizontalAlignment="Left" 
         	Margin="985,95,0,0" 
         	Grid.Row="1" 
         	VerticalAlignment="Top"
@@ -96,7 +96,7 @@
         	NormalStateImageSource="ms-appx:///Assets/Restaurans/RestVigen.jpg" 
         	FontSize="18"
         	HoverStateImageSource="ms-appx:///Assets/Restaurans/RestVigenDark.jpg" 
-        	Content="{Binding r4, Mode=TwoWay}"/>
+        	Content="{Binding r4, Mode=TwoWay}"                            />
 
     </Grid>
 </Page>

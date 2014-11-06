@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-11-06T11:11:18.194</Modified>
+      <Modified>2014-11-06T12:33:20.280</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\TouristAppV3.exe">
       <PackagePath>TouristAppV3.exe</PackagePath>
-      <Modified>2014-11-06T11:11:17.657</Modified>
+      <Modified>2014-11-06T12:36:13.346</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\App5\packages\Callisto.1.4.0\lib\netcore451\Callisto.dll">
       <PackagePath>Callisto.dll</PackagePath>
@@ -39,6 +39,10 @@
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Backgrounds\desaturated.jpg">
       <PackagePath>Assets\Backgrounds\desaturated.jpg</PackagePath>
       <Modified>2014-10-30T20:55:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Backgrounds\FrameMyTV1083.jpg">
+      <PackagePath>Assets\Backgrounds\FrameMyTV1083.jpg</PackagePath>
+      <Modified>2014-11-06T12:10:02.190</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Backgrounds\Rainbow_Colorful_wood_background.jpg">
       <PackagePath>Assets\Backgrounds\Rainbow_Colorful_wood_background.jpg</PackagePath>
@@ -92,6 +96,14 @@
       <PackagePath>Assets\Hotels\HotelScandicTh.jpg</PackagePath>
       <Modified>2014-10-30T21:14:18.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Restaurans\GustoRoskilde.jpg">
+      <PackagePath>Assets\Restaurans\GustoRoskilde.jpg</PackagePath>
+      <Modified>2014-11-06T12:28:53.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Restaurans\MummRoskilde.jpg">
+      <PackagePath>Assets\Restaurans\MummRoskilde.jpg</PackagePath>
+      <Modified>2014-11-06T12:16:51.807</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Restaurans\RestGusto.jpg">
       <PackagePath>Assets\Restaurans\RestGusto.jpg</PackagePath>
       <Modified>2014-11-02T20:42:58.000</Modified>
@@ -123,6 +135,14 @@
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Restaurans\RestVigenDark.jpg">
       <PackagePath>Assets\Restaurans\RestVigenDark.jpg</PackagePath>
       <Modified>2014-11-04T07:55:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Restaurans\SkankRoskilde.jpg">
+      <PackagePath>Assets\Restaurans\SkankRoskilde.jpg</PackagePath>
+      <Modified>2014-11-06T12:26:33.459</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Restaurans\VigenRoskilde.jpg">
+      <PackagePath>Assets\Restaurans\VigenRoskilde.jpg</PackagePath>
+      <Modified>2014-11-06T12:24:35.810</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -162,11 +182,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\View\DetailedPage.xbf">
       <PackagePath>View\DetailedPage.xbf</PackagePath>
-      <Modified>2014-11-06T11:10:56.682</Modified>
+      <Modified>2014-11-06T12:33:19.145</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\View\DetailedPageR.xbf">
       <PackagePath>View\DetailedPageR.xbf</PackagePath>
-      <Modified>2014-11-04T14:10:18.000</Modified>
+      <Modified>2014-11-06T12:36:12.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\View\ListPageHotels.xbf">
       <PackagePath>View\ListPageHotels.xbf</PackagePath>
@@ -174,7 +194,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\View\ListPageRestaurants.xbf">
       <PackagePath>View\ListPageRestaurants.xbf</PackagePath>
-      <Modified>2014-11-04T11:08:42.000</Modified>
+      <Modified>2014-11-06T12:33:19.146</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\View\MainPage.xbf">
       <PackagePath>View\MainPage.xbf</PackagePath>
@@ -182,7 +202,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\TouristAppV3.xr.xml">
       <PackagePath>TouristAppV3.xr.xml</PackagePath>
-      <Modified>2014-11-06T10:42:29.481</Modified>
+      <Modified>2014-11-06T12:32:14.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Documents\Visual Studio 2013\Projects\App5\packages\Callisto.1.4.0\lib\netcore451\Callisto\themes\Generic.xbf">
       <PackagePath>Callisto\themes\Generic.xbf</PackagePath>
@@ -294,7 +314,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bruno Damjanovic\Desktop\EatN-Sleep-master\TouristAppV3\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-11-06T11:11:17.816</Modified>
+      <Modified>2014-11-06T12:33:19.776</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
